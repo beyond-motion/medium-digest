@@ -1,0 +1,31 @@
+{
+  "name": "every-to-newsletter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node -r ./scripts/localhost-resolver.cjs ./node_modules/astro/astro.js check && node -r ./scripts/localhost-resolver.cjs ./node_modules/astro/astro.js build",
+    "deploy": "node scripts/publish-site.mjs",
+    "preview": "astro preview",
+    "every:check": "node scripts/run-every-newsletter.mjs check",
+    "every:process": "node scripts/run-every-newsletter.mjs process",
+    "every:publish": "node scripts/run-every-newsletter.mjs publish",
+    "every:run": "node scripts/run-every-newsletter.mjs run",
+    "every:daily:telegram": "node scripts/run-daily-with-telegram.mjs",
+    "notify:telegram": "node scripts/notify-telegram.mjs",
+    "skill:install": "node scripts/install-skill.mjs",
+    "index": "node scripts/build-index.mjs"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "astro": "^5.15.4",
+    "gray-matter": "^4.0.3",
+    "marked": "^16.4.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "wrangler": "^4.45.0"
+  }
+}

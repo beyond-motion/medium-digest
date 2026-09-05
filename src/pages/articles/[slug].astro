@@ -1,0 +1,156 @@
+---
+import fs from "node:fs/promises";
+import path from "node:path";
+import matter from "gray-matter";
+import { marked } from "marked";
+import "../../styles/global.css";
+import articles from "../../../data/articles.json";
+
+const articlesDir = path.join(process.cwd(), "content", "articles");
+
+export async function getStaticPaths() {
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { fileName: `${article.slug}.md` },
+  }));
+}
+
+const { fileName } = Astro.props;
+const raw = await fs.readFile(path.join(articlesDir, fileName), "utf8");
+const parsed = matter(raw);
+const splitSections = (content: string) => {
+  const rewriteMatch = content.match(/<!--\s*REWRITE_START\s*-->([\s\S]*?)<!--\s*REWRITE_END\s*-->/);
+  const sproutMatch = content.match(/<!--\s*SPROUT_START\s*-->([\s\S]*?)<!--\s*SPROUT_END\s*-->/);
+  if (rewriteMatch || sproutMatch) {
+    return {
+      rewrite: rewriteMatch?.[1]?.trim() || "_暂无改写内容_",
+      sprout: sproutMatch?.[1]?.trim() || "_暂无发芽笔记_",
+    };
+  }
+  const sproutIndex = content.indexOf("## 发芽笔记");
+  if (sproutIndex >= 0) {
+    return {
+      rewrite: content.slice(0, sproutIndex).replace(/^## 改写式翻译\s*/m, "").trim(),
+      sprout: content.slice(sproutIndex).replace(/^## 发芽笔记\s*/m, "").trim(),
+    };
+  }
+  return { rewrite: content.trim(), sprout: "_暂无发芽笔记_" };
+};
+const enhanceImageTags = (html: string) =>
+  html.replace(/<img\b([^>]*?)>/g, (_match, attrs) => {
+    let nextAttrs = attrs;
+    if (!/\bloading=/.test(nextAttrs)) nextAttrs += ' loading="lazy"';
+    if (!/\bdecoding=/.test(nextAttrs)) nextAttrs += ' decoding="async"';
+    return `<img${nextAttrs}>`;
+  });
+const escapeHtml = (value: string) =>
+  value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+const sections = splitSections(parsed.content);
+const renderedMarkdown = `${sections.rewrite}\n${sections.sprout}`;
+const extraImages = Array.isArray(parsed.data.images)
+  ? parsed.data.images.filter((image: { url?: string }) => image?.url && !renderedMarkdown.includes(image.url))
+  : [];
+const extraImagesHtml = extraImages
+  .map((image: { url: string; alt?: string }) => {
+    const alt = escapeHtml(image.alt || "原文配图");
+    const caption = image.alt ? "<figcaption>" + alt + "</figcaption>" : "";
+    return (
+      '<figure class="article-extra-image"><img src="' +
+      escapeHtml(image.url) +
+      '" alt="' +
+      alt +
+      '" loading="lazy" decoding="async">' +
+      caption +
+      "</figure>"
+    );
+  })
+  .join("");
+const rewriteHtml = `${enhanceImageTags(marked.parse(sections.rewrite, { async: false }) as string)}${extraImagesHtml}`;
+const sproutHtml = enhanceImageTags(marked.parse(sections.sprout, { async: false }) as string);
+const sourceUrl = parsed.data.source_url || parsed.data.sourceUrl || "";
+const formatter = new Intl.DateTimeFormat("zh-CN", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={parsed.data.excerpt || parsed.data.title} />
+    <title>{parsed.data.title} | Medium 编辑精选 · 中文翻译与发芽</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark">M</span>
+          <span>Medium 编辑精选 · 中文翻译与发芽</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/">归档</a>
+          {sourceUrl && <a href={sourceUrl} rel="noreferrer">原文</a>}
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <header class="shell article-header">
+        <h1>{parsed.data.title}</h1>
+        {parsed.data.excerpt && <p>{parsed.data.excerpt}</p>}
+        <div class="meta-strip">
+          <span class="pill">{parsed.data.author || "Medium"}</span>
+          {parsed.data.date && <span class="pill">{formatter.format(new Date(parsed.data.date))}</span>}
+          <span class="pill">{parsed.data.status || "processed"}</span>
+        </div>
+        {sourceUrl && <a class="source-link" href={sourceUrl} rel="noreferrer">Read original</a>}
+      </header>
+
+      <section class="shell content-grid">
+        <aside class="side-note">
+          <p>这页由自动化流程从公开文章生成。锁定文章会被跳过，不尝试绕过访问限制。</p>
+        </aside>
+        <article class="article-body">
+          <div class="tabs" data-tabs>
+            <div class="tab-list" role="tablist" aria-label="Article sections">
+              <button class="tab-button is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-rewrite" id="tab-rewrite" data-tab-target="rewrite">
+                改写式翻译
+              </button>
+              <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-sprout" id="tab-sprout" data-tab-target="sprout">
+                发芽笔记
+              </button>
+            </div>
+            <section class="section tab-panel is-active" id="panel-rewrite" role="tabpanel" aria-labelledby="tab-rewrite" data-tab-panel="rewrite" set:html={rewriteHtml} />
+            <section class="section tab-panel" id="panel-sprout" role="tabpanel" aria-labelledby="tab-sprout" data-tab-panel="sprout" set:html={sproutHtml} />
+          </div>
+        </article>
+      </section>
+    </main>
+    <script>
+      for (const root of document.querySelectorAll("[data-tabs]")) {
+        const buttons = root.querySelectorAll("[data-tab-target]");
+        const panels = root.querySelectorAll("[data-tab-panel]");
+        for (const button of buttons) {
+          button.addEventListener("click", () => {
+            const target = button.getAttribute("data-tab-target");
+            for (const other of buttons) {
+              const active = other === button;
+              other.classList.toggle("is-active", active);
+              other.setAttribute("aria-selected", String(active));
+            }
+            for (const panel of panels) {
+              panel.classList.toggle("is-active", panel.getAttribute("data-tab-panel") === target);
+            }
+          });
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "2026-09-05-3-ways-data-science",
+    "title": "3 Ways to Break Into Data Science",
+    "author": "Elad Cohen",
+    "date": "2026-09-05T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/data-science/3-ways-to-break-into-data-science",
+    "status": "processed",
+    "excerpt": "",
+    "image": "",
+    "cardImage": "",
+    "hash": "",
+    "file": "content/articles/2026-09-05-3-ways-data-science.md"
+  },
+  {
+    "slug": "2026-09-05-words-as-seeds-ch14",
+    "title": "Words as Seeds: Chapter 14 — What Does an LLM Do Between Language and Meaning?",
+    "author": "Keita SUZUKI",
+    "date": "2026-09-05T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/artificial-intelligence/words-as-seeds-chapter-14",
+    "status": "processed",
+    "excerpt": "",
+    "image": "",
+    "cardImage": "",
+    "hash": "",
+    "file": "content/articles/2026-09-05-words-as-seeds-ch14.md"
+  },
+  {
+    "slug": "2026-09-04-lerobot-act-policy",
+    "title": "What I learned training an ACT policy for the LeRobot SO-ARM101",
+    "author": "Glen Yu",
+    "date": "2026-09-04T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/software-engineering/what-i-learned-training-an-act-policy-for-the-lerobot-so-arm101",
+    "status": "processed",
+    "excerpt": "",
+    "image": "",
+    "cardImage": "",
+    "hash": "",
+    "file": "content/articles/2026-09-04-lerobot-act-policy.md"
+  }
+]
