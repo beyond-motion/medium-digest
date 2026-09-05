@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""build.py — 把 articles.json 渲染成静态站 dist/（零依赖，stdlib only）"""
+"""build.py — 把 articles.json 渲染成静态站 docs/（GitHub Pages 源目录）（零依赖，stdlib only）"""
 import html
 import json
 import pathlib
 import urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
-DIST = ROOT / "dist"
+DIST = ROOT / "docs"
 
 CSS = """body{font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1a1a1a;line-height:1.75;background:#fafaf8}
 a{color:#0f6b5c}header{border-bottom:2px solid #0f6b5c;padding-bottom:12px;margin-bottom:24px}
@@ -65,7 +65,7 @@ def main() -> None:
 </body></html>""")
     (DIST / "articles.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))
     n = len(articles)
-    print(f"构建完成：dist/ （index + {n} 篇文章页）")
+    print(f"构建完成：docs/ （index + {n} 篇文章页）")
 
 
 if __name__ == "__main__":
