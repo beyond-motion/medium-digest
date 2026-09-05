@@ -1,23 +1,103 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>训练 LeRobot SO-ARM101 机械臂 ACT 策略的实战心得 · Medium 编辑精选导读</title><style>body{font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1a1a1a;line-height:1.75;background:#fafaf8}
+<title>训练 LeRobot SO-ARM101 机械臂 ACT 策略，我学到了什么 · Medium 编辑精选</title><style>body{font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;max-width:760px;margin:0 auto;padding:28px 16px;color:#1a1a1a;line-height:1.85;background:#fafaf8}
 a{color:#0f6b5c}header{border-bottom:2px solid #0f6b5c;padding-bottom:12px;margin-bottom:24px}
-header h1{margin:0 0 6px;font-size:1.5em}.desc{color:#555;font-size:.92em}
+header h1{margin:0 0 6px;font-size:1.45em}.desc{color:#555;font-size:.92em}
 .card{background:#fff;border:1px solid #e5e2da;border-radius:10px;padding:18px 20px;margin:14px 0}
-.card h2{margin:0 0 4px;font-size:1.15em}.meta{color:#777;font-size:.85em;margin-bottom:8px}
-.zh-note{font-size:.8em;color:#a06a00;background:#fff7e6;border-radius:6px;padding:4px 10px;display:inline-block;margin-bottom:8px}
-ul{padding-left:1.2em}li{margin:.5em 0}.who{color:#555;font-style:italic}
-.srcbox{background:#f0ede6;border-radius:8px;padding:10px 14px;margin-top:16px;font-size:.9em}
-article{background:#fff;border:1px solid #e5e2da;border-radius:10px;padding:26px 30px}
-.back{font-size:.9em}footer{color:#999;font-size:.8em;margin-top:36px;text-align:center}</style></head><body>
+.card h2{margin:0 0 6px;font-size:1.12em}.meta{color:#777;font-size:.85em;margin-bottom:8px}
+.badge{font-size:.78em;color:#0f6b5c;background:#e8f2f0;border-radius:6px;padding:2px 10px;margin-right:6px}
+article{background:#fff;border:1px solid #e5e2da;border-radius:10px;padding:30px 34px;margin:16px 0}
+article h1{font-size:1.3em;margin:.4em 0}article h2{font-size:1.15em;margin:1.4em 0 .5em;color:#0f4c42}
+article h3{font-size:1.02em;margin:1.1em 0 .4em;color:#555}
+.en-title{color:#888;font-size:1.05em !important;font-weight:600}
+.sprout{background:#f7fbf6;border-color:#cfe3d5}
+.sprout h1{color:#0f6b5c}
+ul{padding-left:1.3em}li{margin:.45em 0}p{margin:.7em 0}
+.srcbox{background:#f0ede6;border-radius:8px;padding:12px 16px;margin-top:22px;font-size:.9em}
+.back{font-size:.9em}footer{color:#999;font-size:.8em;margin-top:36px;text-align:center}
+.disclaimer{color:#a06a00;font-size:.82em}</style></head><body>
 <p class="back"><a href="./index.html">← 返回目录</a></p>
 <article>
-<h1>训练 LeRobot SO-ARM101 机械臂 ACT 策略的实战心得</h1>
-<div class="meta">2026-09-04 · software-engineering · Selected by Medium</div>
-<span class="zh-note">中文导读（要点提炼），非原文翻译</span>
-<ul><li>作者长期关注机器人领域，认为 Hugging Face 的 LeRobot 生态第一次把开源硬件、现代机器学习和活跃社区拧成了一股绳，于是用 SO-ARM101 机械臂完整走了一遍 ACT（Action Chunking with Transformers）策略训练流程。</li><li>环境搭建：Mac 上用 pyenv + miniconda 3.12 做基础环境，官方文档的安装步骤本身是准确的，直接从 PyPI 安装 LeRobot 及 CLI 额外依赖即可；真正的坑都在文档没写的数据采集与训练环节。</li><li>相机布局是策略一致性的关键：腕部相机视野窄、聚焦抓取点，提供细粒度视觉反馈；顶部俯视相机给出全局空间关系。作者见过用 15FPS 腕部相机加 MacBook 内置摄像头的省钱方案，但专用多相机布局的策略一致性明显更好。</li><li>文章价值在于把官方文档没写的实战教训（环境、标定、数据质量、相机选型）系统整理成了可复用的清单，适合想低成本入门具身智能的个人开发者。</li></ul>
-<p class="who">适合读者：想入手 LeRobot 开源机械臂、或对具身智能数据采集与模仿学习训练有好奇心的人。</p>
-<div class="srcbox">原文：<a href="https://medium.com/software-engineering/what-i-learned-training-an-act-policy-for-the-lerobot-so-arm101" rel="nofollow noopener" target="_blank">What I learned training an ACT policy for the LeRobot SO-ARM101</a><br>
-作者：Glen Yu · 发表于 Medium。本页为中文导读与要点提炼，版权归原作者所有。</div>
+<h1 class="en-title">What I learned training an ACT policy for the LeRobot SO-ARM101</h1>
+<h1>训练 LeRobot SO-ARM101 机械臂 ACT 策略，我学到了什么</h1>
+<h2>引言</h2>
+<p>作者长期痴迷机器人，但多年来这个领域是碎片化的：市面上的机械臂不少，却很少有把硬件与现代机器学习绑在一起的统一框架和活跃开源社区。直到他在 Hugging Face 的 LeRobot 生态里发现了 SO-ARM101——一个低成本的 3D 打印机械臂，配标准化的数据集、易上手的模仿学习管线和活跃社区——他才真正踏入物理 AI。从最初的环境配置怪癖到训练出第一个 ACT（Action Chunking with Transformers）策略，过程中踩了很多官方文档没写的坑，本文把这些教训全部整理出来。</p>
+<h2>开发环境</h2>
+<p>作者在 MacBook 上用 pyenv 搭建 miniconda3-3.12 作为基础环境。官方文档的初始步骤是准确直观的，从 PyPI 安装 LeRobot 包及 CLI 脚本、Feetech 总线舵机控制所需的附加项：</p>
+<ul>
+<li><code>pip install &#x27;lerobot[core_scripts,feetech]&#x27;</code></li>
+</ul>
+<h2>需要几个相机？</h2>
+<p>布置物理工作区时，至少两个相机：</p>
+<ul>
+<li><strong>腕部相机</strong>：提供目标物相对夹爪位置的细粒度视觉反馈——像戴了眼罩的赛马，视野窄，完全聚焦在操作点。</li>
+<li><strong>顶部/俯视相机（鸟瞰）</strong>：给模型全局上下文，知道机械臂和物体在桌面上的位置。俯视视角可以避开侧装相机的盲区（机械臂身体会挡住视线）。</li>
+<li><strong>前向基部相机（可选第三路）</strong>：任务复杂时，在底座上加一个前向相机提供深度透视，补充俯视与腕部视角。</li>
+</ul>
+<p>作者见过用原装 15FPS 腕部相机配 MacBook 内置摄像头的省钱方案，但专用多相机布局的策略一致性要好得多。</p>
+<h2>硬件选型</h2>
+<ul>
+<li>2 × InnoMaker 1080P USB2.0 UVC 相机：直接替换原装 15FPS 腕部相机，紧凑的外形和可选铝壳也方便装在臂座上当前向相机。</li>
+<li>Pro HD 1080P/30FPS 网络摄像头 + 桌面三脚架：用于鸟瞰视角，放在旁边书架上即可调整高度和俯仰角，不必买专用夹具。</li>
+</ul>
+<h2>数据集录制与线程调优</h2>
+<p>录制示教片段时，每个相机至少分配两个编码线程（<code>dataset.encoder_threads=2</code>），否则遥操作过程会丢帧。作者的三相机方案给每相机 3 线程，占满 MacBook M3 Pro 的 9 个 CPU 核心。虽然 15FPS 可以缩小数据集体积、降低 CPU 开销，但现代 USB 相机原生默认 30FPS——所有传感器统一 30FPS 才能避免录制时的帧率不匹配问题。</p>
+<h2>降低分辨率换取训练速度</h2>
+<p>1080P 画面人眼看着爽，但高分辨率会让数据集膨胀、显存占用飙升、训练慢到爬行。ACT 的标准视觉骨干网不需要全高清细节来学习空间特征。把相机画面缩到 640x480 之类的低分辨率（训练与策略评估都用同一分辨率），存储需求和训练时间都会明显下降。</p>
+<h2>训练策略</h2>
+<p>第一个 ACT 策略要尽量消灭物理与视觉的可变性：用单色乐高块（或同色积木拼成的大块），放在干净纯色的背景前；目标容器选简单的盒子或碗，哑光单色。高反光、半透明、带花纹的物体会引入不必要的视觉噪声，让早期策略收敛难得多。</p>
+<p>注意：作者最初用的是方块形 USB 充电器——这是个糟糕的选择。充电器插脚和不同面的纹理会随摆放角度产生显著的视觉变异，直接影响了夹爪抓取的一致性。</p>
+<h2>要训练多少步？</h2>
+<p>从经典深度学习转来的人都会问：训练步数怎么换算成 epoch？以三相机方案录制 100 条示教为例，通常得到约 45,000 行 Parquet 数据（每行对应一帧视频，含同步的相机图像与舵机关节状态）。若以 batch size 32 训练 20,000 步：</p>
+<ul>
+<li>Epochs = 总步数 × Batch Size / 数据集行数 = 20000 × 32 / 45000 ≈ 14.2</li>
+</ul>
+<p>一个 epoch 是完整过一遍训练数据。在标准 PyTorch/TensorFlow 工作流里，14 个 epoch 对视觉策略的泛化来说通常还差一点：<strong>25-50 个 epoch 是基础收敛的可靠基线</strong>。</p>
+<h2>任务复杂度 vs 数据集规模</h2>
+<p>epoch 数只是一个指标。底层数据覆盖不足时，训几百个 epoch 也不会变好。要让数据覆盖匹配任务复杂度，再配上足够的训练步数：</p>
+<ul>
+<li><strong>固定起点+固定目标（低方差）</strong>：从固定的 A 点抓方块放进固定 B 点的容器——30 条示教、15 个 epoch 就能得到可用的基线策略。</li>
+<li><strong>随机起点+固定目标（中方差）</strong>：乐高块可出现在工作区任意位置、容器固定——大约需要 100 条示教、30 个 epoch 来覆盖工作区分布。</li>
+<li><strong>随机起点+随机目标（高方差）</strong>：块和容器每次演示都换位置——目标 250+ 条示教、约 50+ epoch，让 Transformer 编码器学到泛化的空间关系而不是背轨迹。</li>
+</ul>
+<h2>解读 L1 Loss</h2>
+<p>看训练曲线时，L1 Loss 是主要的收敛指标。没有通用及格线，但操作任务的 ACT 策略通常在 L1 Loss 降到 0.01-0.05 之间时开始出现可靠轨迹。0.02 实际意味着什么？它是模型预测轨迹块与真值遥操作动作在归一化关节空间上的平均绝对误差。注意它是所有自由度上的聚合平均：6 自由度臂上可能五个关节都接近零误差、唯独一个关键关节（腕部俯仰或夹爪闭合）误差偏高，而整体均值依然「好看」地停在 0.02。最终，真实世界跑策略永远是性能的真正检验——看着机械臂自主完成任务也是最 rewarding 的时刻。</p>
+<h2>我的实战</h2>
+<p>作者的目标：训练一个能把乐高块放进碗里的 ACT 策略，块和碗都可以放在工作区任意位置，目标成功率 75% 以上。数据在临时工作台上本地录制；因为 LeRobot 管线与 Hugging Face Hub 无缝集成，他把数据集推上去，在办公室的 NVIDIA DGX Spark 上跑资源密集的训练——更大 batch、更多步数，比 MacBook 上快得多。</p>
+<ul>
+<li><strong>v1（中方差基线）</strong>：50 条示教（约 21.5k 帧），乐高换位置、碗固定。20,000 步、batch 32（约 30 epoch），耗时约 8 小时，batch 32 占约 22GB 显存。<strong>L1 Loss = 0.074</strong>。</li>
+<li><strong>v2（全空间方差）</strong>：块和碗每次都换位置，新录 150 条，与旧数据合并共 200 条（约 83.5k 帧）。100,000 步、约 41 小时。<strong>L1 Loss = 0.052</strong>。</li>
+<li><strong>v3（补难点）</strong>：追加 125 条，专门覆盖别扭的摆放、桌面边缘、刁钻角度，合计 325 条（约 141k 帧）。250,000 步、约 104 小时。<strong>L1 Loss = 0.040</strong>，稳定达成 75%+ 成功率。</li>
+</ul>
+<p>104 小时的训练听起来夸张，但 DGX Spark 的算力让 Transformer 在刁钻的空间边界上平滑泛化，稳稳达到目标。</p>
+<h2>下一步</h2>
+<p>SO-ARM101 的「机器人操作 hello world」只是起点。作者接下来想挑战可变形物体操作（比如用 ACT 策略叠衣服），也想试 Vision-Language-Action（VLA）模型——Hugging Face 的 SmolVLA、Physical Intelligence 的 Pi、NVIDIA 的 GR00T——看通用多模态骨干网如何处理零样本空间推理和自然语言任务提示。工具层面，他期待 NVIDIA Isaac Sim 等仿真环境原生支持 macOS（目前仅限 Linux/Windows + NVIDIA RTX），以及一台由 DGX Spark 或 AMD Ryzen AI Halo 驱动的本地 AI 工作站。</p>
+<div class="srcbox">原文：<a href="https://medium.com/software-engineering/what-i-learned-training-an-act-policy-for-the-lerobot-so-arm101" rel="nofollow noopener" target="_blank">What I learned training an ACT policy for the LeRobot SO-ARM101</a><br>作者：Glen Yu · 发表于 Medium · software-engineering · Selected by Medium<br><span class="disclaimer">本页为改写式中文翻译与 AI 发芽笔记，非官方译文；内容版权归原作者所有，请通过原文链接阅读完整原文。</span></div>
 </article>
-<footer>Medium 编辑精选 · 中文导读站</footer></body></html>
+<article class="sprout">
+<h1>《What I learned training an ACT policy for the LeRobot SO-ARM101》的发芽报告</h1>
+<h2>材料核心</h2>
+<p>核心观点：具身智能的第一次成功，取决于你把「视觉世界」收拾得多干净，以及数据覆盖是否匹配任务方差——算力可以买，视觉噪声和覆盖缺口省不掉。</p>
+<h2>发芽 01：策略不好，先别怪训练，先看它眼里的世界</h2>
+<h3>种子</h3>
+<p>作者最初用方块形 USB 充电器当抓取目标，后来换成单色乐高块。</p>
+<h3>故事</h3>
+<p>同一个管线、同样的训练，充电器版本的抓取一致性就是上不去。原因不在模型：充电器的插脚和不同面的纹理，随着摆放角度变化制造了大量视觉变异，模型看到的每次都是「不太一样的东西」。</p>
+<h3>Aha 瞬间</h3>
+<p>调策略的第一反应往往是改超参数，而本文的第一课是物理世界的事：<strong>视觉噪声是策略的天花板，而且它是在数据采集那天就定死的</strong>。换一个更「干净」的目标物，比多训 100 小时更便宜。</p>
+<h2>发芽 02：平均值会撒谎——L1 Loss 0.02 的陷阱</h2>
+<h3>种子</h3>
+<p>L1 Loss 是所有自由度上的聚合平均绝对误差。</p>
+<h3>故事</h3>
+<p>6 自由度机械臂上，五个关节可能都逼近零误差，唯独腕部俯仰或夹爪闭合这一个关键关节误差很高——整体均值依然可以「好看」地停在 0.02。而夹爪恰好多半正是任务成败的那个关节。所以作者的结论是：真实世界的 rollout 才是唯一检验。</p>
+<h3>Aha 瞬间</h3>
+<p>这条对所有系统评估都成立：<strong>聚合指标会掩盖单点失败，而失败往往恰好发生在那个单点上</strong>。看平均之前，先看分布和最差的维度。</p>
+<h2>发芽 03：瓶颈常在覆盖，不在步数</h2>
+<h3>种子</h3>
+<p>文中给出三档任务方差与数据量的对应：固定→30 条/15 epoch；随机起点→100 条/30 epoch；双随机→250+ 条/50+ epoch。</p>
+<h3>故事</h3>
+<p>作者的迭代路径不是一路加大步数：v1 先用 50 条证明单目标可行，然后发现真正卡住泛化的是「块和碗都动起来」的覆盖缺口，于是补录 125 条专门覆盖桌面边缘、别扭角度这些难点，才把 L1 从 0.052 推到 0.040。</p>
+<h3>Aha 瞬间</h3>
+<p>训练步数解决的是「学没学会」，数据覆盖解决的是「见没见过」。<strong>当模型在训练分布内表现良好、换个位置就崩，该加的是数据多样性，不是 epoch。</strong></p>
+</article>
+<footer>Medium 编辑精选 · 中文翻译与发芽</footer></body></html>
