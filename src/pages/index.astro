@@ -39,7 +39,7 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
   <body>
     <header class="topbar">
       <div class="shell topbar-inner">
-        <a class="brand" href="/">
+        <a class="brand" href={`${import.meta.env.BASE_URL}`}>
           <span class="brand-mark">M</span>
           <span>Medium 编辑精选 · 中文翻译与发芽</span>
         </a>
