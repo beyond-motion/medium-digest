@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>训练 LeRobot SO-ARM101 机械臂 ACT 策略的实战心得 · Medium 编辑精选导读</title><style>body{font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1a1a1a;line-height:1.75;background:#fafaf8}
+a{color:#0f6b5c}header{border-bottom:2px solid #0f6b5c;padding-bottom:12px;margin-bottom:24px}
+header h1{margin:0 0 6px;font-size:1.5em}.desc{color:#555;font-size:.92em}
+.card{background:#fff;border:1px solid #e5e2da;border-radius:10px;padding:18px 20px;margin:14px 0}
+.card h2{margin:0 0 4px;font-size:1.15em}.meta{color:#777;font-size:.85em;margin-bottom:8px}
+.zh-note{font-size:.8em;color:#a06a00;background:#fff7e6;border-radius:6px;padding:4px 10px;display:inline-block;margin-bottom:8px}
+ul{padding-left:1.2em}li{margin:.5em 0}.who{color:#555;font-style:italic}
+.srcbox{background:#f0ede6;border-radius:8px;padding:10px 14px;margin-top:16px;font-size:.9em}
+article{background:#fff;border:1px solid #e5e2da;border-radius:10px;padding:26px 30px}
+.back{font-size:.9em}footer{color:#999;font-size:.8em;margin-top:36px;text-align:center}</style></head><body>
+<p class="back"><a href="./index.html">← 返回目录</a></p>
+<article>
+<h1>训练 LeRobot SO-ARM101 机械臂 ACT 策略的实战心得</h1>
+<div class="meta">2026-09-04 · software-engineering · Selected by Medium</div>
+<span class="zh-note">中文导读（要点提炼），非原文翻译</span>
+<ul><li>作者长期关注机器人领域，认为 Hugging Face 的 LeRobot 生态第一次把开源硬件、现代机器学习和活跃社区拧成了一股绳，于是用 SO-ARM101 机械臂完整走了一遍 ACT（Action Chunking with Transformers）策略训练流程。</li><li>环境搭建：Mac 上用 pyenv + miniconda 3.12 做基础环境，官方文档的安装步骤本身是准确的，直接从 PyPI 安装 LeRobot 及 CLI 额外依赖即可；真正的坑都在文档没写的数据采集与训练环节。</li><li>相机布局是策略一致性的关键：腕部相机视野窄、聚焦抓取点，提供细粒度视觉反馈；顶部俯视相机给出全局空间关系。作者见过用 15FPS 腕部相机加 MacBook 内置摄像头的省钱方案，但专用多相机布局的策略一致性明显更好。</li><li>文章价值在于把官方文档没写的实战教训（环境、标定、数据质量、相机选型）系统整理成了可复用的清单，适合想低成本入门具身智能的个人开发者。</li></ul>
+<p class="who">适合读者：想入手 LeRobot 开源机械臂、或对具身智能数据采集与模仿学习训练有好奇心的人。</p>
+<div class="srcbox">原文：<a href="https://medium.com/software-engineering/what-i-learned-training-an-act-policy-for-the-lerobot-so-arm101" rel="nofollow noopener" target="_blank">What I learned training an ACT policy for the LeRobot SO-ARM101</a><br>
+作者：Glen Yu · 发表于 Medium。本页为中文导读与要点提炼，版权归原作者所有。</div>
+</article>
+<footer>Medium 编辑精选 · 中文导读站</footer></body></html>
