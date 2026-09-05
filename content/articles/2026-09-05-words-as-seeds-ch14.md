@@ -5,6 +5,7 @@ author: Keita SUZUKI
 date: '2026-09-05T09:00:00+08:00'
 source_url: 'https://medium.com/artificial-intelligence/words-as-seeds-chapter-14'
 status: processed
+image: covers/2026-09-05-words-as-seeds-ch14.svg
 excerpt: >-
   LLM 的入口出口都是语言，中间却穿过一层「数学潜在结构」：意义不在词里，而在关系被语境激活的方式里。
 ---

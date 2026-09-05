@@ -7,8 +7,8 @@
     "sourceUrl": "https://medium.com/data-science/3-ways-to-break-into-data-science",
     "status": "processed",
     "excerpt": "转行数据科学先对号入座：STEM 转行、应届生、自学 optimism 三类人的路径差异，以及「雇主损失函数不对称」的求职本质。",
-    "image": "",
-    "cardImage": "",
+    "image": "covers/2026-09-05-3-ways-data-science.svg",
+    "cardImage": "covers/2026-09-05-3-ways-data-science.svg",
     "hash": "",
     "file": "content/articles/2026-09-05-3-ways-data-science.md"
   },
@@ -20,8 +20,8 @@
     "sourceUrl": "https://medium.com/artificial-intelligence/words-as-seeds-chapter-14",
     "status": "processed",
     "excerpt": "LLM 的入口出口都是语言，中间却穿过一层「数学潜在结构」：意义不在词里，而在关系被语境激活的方式里。",
-    "image": "",
-    "cardImage": "",
+    "image": "covers/2026-09-05-words-as-seeds-ch14.svg",
+    "cardImage": "covers/2026-09-05-words-as-seeds-ch14.svg",
     "hash": "",
     "file": "content/articles/2026-09-05-words-as-seeds-ch14.md"
   },
@@ -33,8 +33,8 @@
     "sourceUrl": "https://medium.com/software-engineering/what-i-learned-training-an-act-policy-for-the-lerobot-so-arm101",
     "status": "processed",
     "excerpt": "低成本开源机械臂的第一课：视觉一致性决定策略上限，数据覆盖比训练步数更关键——附 ACT 训练三阶段完整参数。",
-    "image": "",
-    "cardImage": "",
+    "image": "covers/2026-09-04-lerobot-act-policy.svg",
+    "cardImage": "covers/2026-09-04-lerobot-act-policy.svg",
     "hash": "",
     "file": "content/articles/2026-09-04-lerobot-act-policy.md"
   }
