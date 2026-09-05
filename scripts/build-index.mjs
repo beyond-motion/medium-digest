@@ -305,7 +305,7 @@ async function readArticles() {
     articles.push({
       slug,
       title: localized.data.title || slug,
-      author: localized.data.author || "Every",
+      author: localized.data.author || "Medium 作者",
       date: normalizeDate(localized.data.date),
       sourceUrl: localized.data.source_url || localized.data.sourceUrl || "",
       status: localized.data.status || "processed",

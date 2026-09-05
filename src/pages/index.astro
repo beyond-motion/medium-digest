@@ -33,7 +33,7 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Medium.to newsletter 的中文改写与发芽笔记归档。" />
+    <meta name="description" content="Medium 编辑精选的改写式中文翻译与发芽笔记归档。" />
     <title>Medium 编辑精选 · 中文翻译与发芽</title>
   </head>
   <body>
@@ -44,8 +44,8 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
           <span>Medium 编辑精选 · 中文翻译与发芽</span>
         </a>
         <nav class="nav" aria-label="Primary">
-          <a href="https://every.to/newsletter">Medium.to</a>
-          <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>
+          <span>Medium 编辑精选</span>
+          <a href="https://medium.com/edit-suggestion" rel="noreferrer">Selected by Medium</a>
         </nav>
       </div>
     </header>
@@ -54,12 +54,12 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
       <section class="shell hero">
         <h1>Medium 编辑精选的中文工作台：每日 Selected by Medium 与 Staff Picks 的改写式翻译与发芽笔记</h1>
         <p>
-          自动发现公开可读的新文章，沉淀两份材料：一份更自然的中文改写，一份材料驱动的发芽笔记。
+          每天从 Medium 官方编辑精选（Selected by Medium 与 Staff Picks）中挑选文章，沉淀两份材料：一份忠实的改写式中文翻译，一份材料驱动的发芽笔记。
         </p>
         <div class="meta-strip" aria-label="Site stats">
           <span class="pill">{sortedArticles.length} 篇文章</span>
           <span class="pill">跳过锁定文章</span>
-          <span class="pill">Cloudflare Pages 部署</span>
+          <span class="pill">GitHub Pages 部署</span>
         </div>
       </section>
 
@@ -67,7 +67,7 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
         {
           sortedArticles.length === 0 ? (
             <div class="empty">
-              还没有处理完成的文章。运行 <code>npm run every:process -- --processor prompt</code>
+              还没有处理完成的文章。每日 08:00 自动化会从编辑精选发现并处理新文章。
               生成第一批内容，或使用 <code>--processor openai</code> 直接生成两份文稿。
             </div>
           ) : (

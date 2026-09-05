@@ -5,6 +5,8 @@ author: Glen Yu
 date: '2026-09-04T09:00:00+08:00'
 source_url: 'https://medium.com/software-engineering/what-i-learned-training-an-act-policy-for-the-lerobot-so-arm101'
 status: processed
+excerpt: >-
+  低成本开源机械臂的第一课：视觉一致性决定策略上限，数据覆盖比训练步数更关键——附 ACT 训练三阶段完整参数。
 ---
 
 <!-- REWRITE_START -->

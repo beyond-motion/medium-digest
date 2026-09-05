@@ -11,7 +11,7 @@ const steps = [
   ["node", ["-r", preload, astroBin, "build"]],
   [
     "./node_modules/.bin/wrangler",
-    ["pages", "deploy", "dist", "--project-name", "every-to-newsletter", "--branch", "main", "--commit-dirty=true"],
+    ["pages", "deploy", "dist", "--project-name", "medium-digest", "--branch", "main", "--commit-dirty=true"],
   ],
 ];
 

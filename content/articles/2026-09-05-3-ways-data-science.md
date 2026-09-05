@@ -5,6 +5,8 @@ author: Elad Cohen
 date: '2026-09-05T09:00:00+08:00'
 source_url: 'https://medium.com/data-science/3-ways-to-break-into-data-science'
 status: processed
+excerpt: >-
+  转行数据科学先对号入座：STEM 转行、应届生、自学 optimism 三类人的路径差异，以及「雇主损失函数不对称」的求职本质。
 ---
 
 <!-- REWRITE_START -->
