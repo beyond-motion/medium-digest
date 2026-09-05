@@ -52,7 +52,7 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
 
     <main>
       <section class="shell hero">
-        <h1>Medium 编辑精选的中文工作台：每日 Selected by Medium 与 Staff Picks 的改写式翻译与发芽笔记</h1>
+        <h1>Medium 编辑精选 · 中文工作台</h1>
         <p>
           每天从 Medium 官方编辑精选（Selected by Medium 与 Staff Picks）中挑选文章，沉淀两份材料：一份忠实的改写式中文翻译，一份材料驱动的发芽笔记。
         </p>
@@ -75,7 +75,7 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
               <article class="article-row">
                 <div>
                   <h2>
-                    <a href={`/articles/${article.slug}/`}>{article.title}</a>
+                    <a href={`${import.meta.env.BASE_URL}articles/${article.slug}/`}>{article.title}</a>
                   </h2>
                   {article.excerpt && <p>{article.excerpt}</p>}
                   <div class="article-meta">
@@ -87,10 +87,10 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
                     )}
                   </div>
                 </div>
-                <a class="thumb" href={`/articles/${article.slug}/`} aria-label={article.title}>
+                <a class="thumb" href={`${import.meta.env.BASE_URL}articles/${article.slug}/`} aria-label={article.title}>
                   {(article.cardImage || article.image) && (
                     <img
-                      src={article.cardImage || article.image}
+                      src={`${import.meta.env.BASE_URL}${article.cardImage || article.image}`}
                       alt=""
                       loading="lazy"
                       decoding="async"
