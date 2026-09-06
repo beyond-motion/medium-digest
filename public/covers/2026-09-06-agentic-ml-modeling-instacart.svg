@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f6f4ef"/>
+  <rect x="0" y="0" width="14" height="675" fill="#0f6b5c"/>
+  <g font-family="-apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif">
+    <rect x="90" y="64" width="56" height="56" rx="12" fill="#20201d"/>
+    <text x="118" y="102" font-size="30" font-weight="800" fill="#fffdfa" text-anchor="middle">M</text>
+    <text x="164" y="102" font-size="22" font-weight="600" fill="#8a8578">Medium 编辑精选 · 中文翻译与发芽</text>
+    <text x="90" y="238" font-size="52" font-weight="700" fill="#20201d">Instacart的智能体辅助</text>
+    <text x="90" y="311" font-size="52" font-weight="700" fill="#20201d">机器学习建模：</text>
+    <text x="90" y="384" font-size="52" font-weight="700" fill="#20201d">实战、惊喜与陷阱</text>
+    <text x="90" y="603" font-size="24" fill="#8a8578">Tilman Drerup · 2026-09-06</text>
+    <text x="90" y="639" font-size="20" fill="#0f6b5c">改写式翻译 · 发芽笔记</text>
+  </g>
+</svg>

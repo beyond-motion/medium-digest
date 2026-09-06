@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-09-06-agentic-ml-modeling-instacart",
+    "title": "Agentic Machine Learning Modeling at Instacart",
+    "author": "Tilman Drerup",
+    "date": "2026-09-06T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/tech-at-instacart/agentic-machine-learning-modeling-at-instacart-fb3ecd295ee7",
+    "status": "processed",
+    "excerpt": "Instacart 官方长文：智能体辅助建模让成熟生产模型再涨 3-8%，但评估数据正确性、特征泄漏与「agent 会作弊」成为新的守门问题。",
+    "image": "covers/2026-09-06-agentic-ml-modeling-instacart.svg",
+    "cardImage": "covers/2026-09-06-agentic-ml-modeling-instacart.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-06-agentic-ml-modeling-instacart.md"
+  },
+  {
     "slug": "2026-09-05-3-ways-data-science",
     "title": "3 Ways to Break Into Data Science",
     "author": "Elad Cohen",
