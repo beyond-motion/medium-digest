@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-09-07-adobe-chatgpt-creative-tools",
+    "title": "Adobe Just Put 70+ Creative Tools Inside ChatGPT. The Interface Shift Matters More Than the Tools.",
+    "author": "Christie C.",
+    "date": "2026-09-07T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/software-engineering/adobe-just-put-70-creative-tools-inside-chatgpt",
+    "status": "processed",
+    "excerpt": "Adobe 把 70+ 创意工具接入 ChatGPT：真正的转折不是工具数量，而是创意工作流的起点从「打开哪个应用」变成「描述要什么结果」。",
+    "image": "covers/2026-09-07-adobe-chatgpt-creative-tools.svg",
+    "cardImage": "covers/2026-09-07-adobe-chatgpt-creative-tools.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-07-adobe-chatgpt-creative-tools.md"
+  },
+  {
     "slug": "2026-09-06-agentic-ml-modeling-instacart",
     "title": "Agentic Machine Learning Modeling at Instacart",
     "author": "Tilman Drerup",
