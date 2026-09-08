@@ -1,0 +1,71 @@
+---
+const home = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>页面走丢了 | Medium 编辑精选 · 中文翻译与发芽</title>
+    <script is:inline>
+      // GitHub Pages 项目站：未命中路径一律返回本页。缺 /medium-digest/ 前缀的
+      // 外部 URL（如 /articles/<slug>/）自动补全前缀跳转，避免「子页面打不开」。
+      (function () {
+        var base = '/medium-digest';
+        var p = location.pathname;
+        if (p !== base && p.indexOf(base + '/') !== 0) {
+          location.replace(base + p + location.search + location.hash);
+        }
+      })();
+    </script>
+    <style>
+      :root { color-scheme: light; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #f6f4ef;
+        color: #26231d;
+        font-family: "Songti SC", "Noto Serif SC", Georgia, serif;
+        text-align: center;
+        padding: 24px;
+      }
+      .card { max-width: 30rem; }
+      .code {
+        font-size: 3.5rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        color: #0f766e;
+        margin: 0;
+      }
+      h1 { font-size: 1.35rem; margin: 0.6rem 0 0.8rem; }
+      p { line-height: 1.8; color: #5c5648; margin: 0 0 1.6rem; }
+      a.home {
+        display: inline-block;
+        padding: 0.55rem 1.4rem;
+        border-radius: 999px;
+        background: #0f766e;
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.95rem;
+      }
+      a.home:hover { background: #0d5f58; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <p class="code">404</p>
+      <h1>页面走丢了</h1>
+      <p>
+        你访问的地址不存在。若链接来自旧收藏或手动输入且缺少
+        <code>/medium-digest/</code> 前缀，页面已自动帮你跳转到正确地址；
+        若仍看到本页，说明该文章尚未发布或地址有误。
+      </p>
+      <a class="home" href={home}>回首页</a>
+    </div>
+  </body>
+</html>
