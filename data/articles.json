@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-09-prof-g-storytelling-playbook",
+    "title": "See What Others Miss: The Prof G Storytelling Playbook",
+    "author": "Mia Silverio & Scott Galloway",
+    "date": "2026-09-09T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@profgalloway/see-what-others-miss-the-prof-g-storytelling-playbook-1b00e4b38511",
+    "status": "processed",
+    "excerpt": "Prof G Media 研究主管复盘 Scott Galloway 的叙事方法论：制造戏剧性、用「哇」标准选数据、拉远镜头找第二层因果、把数字翻译成人的语境、用图表代替文字——故事是点燃希望的公共服务。",
+    "image": "covers/2026-09-09-prof-g-storytelling-playbook.svg",
+    "cardImage": "covers/2026-09-09-prof-g-storytelling-playbook.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-09-prof-g-storytelling-playbook.md"
+  },
+  {
+    "slug": "2026-09-09-book-is-a-book",
+    "title": "The Book is a Book, not Disembodied Information",
+    "author": "Nassim Nicholas Taleb",
+    "date": "2026-09-09T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@nntaleb/the-book-is-a-book-not-disembodied-information-a3fa583b9e8a",
+    "status": "processed",
+    "excerpt": "塔勒布提出「维度过度截断」：把书当成可以插在U盘上的抽象信息，是只关注可见维度、砍掉必要维度的普罗克鲁斯特斯式降维——实体书的触感与气味，正是阅读体验不可分离的一部分。",
+    "image": "covers/2026-09-09-book-is-a-book.svg",
+    "cardImage": "covers/2026-09-09-book-is-a-book.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-09-book-is-a-book.md"
+  },
+  {
     "slug": "2026-09-07-adobe-chatgpt-creative-tools",
     "title": "Adobe Just Put 70+ Creative Tools Inside ChatGPT. The Interface Shift Matters More Than the Tools.",
     "author": "Christie C.",
