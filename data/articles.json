@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-10-deaf-cant-opt-out",
+    "title": "Deaf People Can't Opt Out of the Hearing World (Trust Me, We've Tried)",
+    "author": "Mark Drolsbaugh",
+    "date": "2026-09-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/understanding-deafness/deaf-people-cant-opt-out-of-the-hearing-world-trust-me-we-ve-tried-93d964af9b11",
+    "status": "processed",
+    "excerpt": "深度扎根聋文化的作者以自身为例拆穿一个顽固迷思：有声世界是社会的默认设置，聋人无法像退出重力一样退出它——加入聋人社区不是退缩，而是让世界变大的归属感。",
+    "image": "covers/2026-09-10-deaf-cant-opt-out.svg",
+    "cardImage": "covers/2026-09-10-deaf-cant-opt-out.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-10-deaf-cant-opt-out.md"
+  },
+  {
+    "slug": "2026-09-10-flow-matching-nice-to-flux2",
+    "title": "What Is Flow Matching? 11 Years From NICE to FLUX.2",
+    "author": "Nancy",
+    "date": "2026-09-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/fandhe/what-is-flow-matching-11-years-from-nice-to-flux-2-d24e013722cc",
+    "status": "processed",
+    "excerpt": "一条 11 年的技术谱系：流匹配通过回归学习连接噪声与数据的向量场，Stable Diffusion 3、FLUX、Movie Gen 全在用它——但它不是扩散模型的替代品，训练路径「直」也不等于生成轨迹「直」。",
+    "image": "covers/2026-09-10-flow-matching-nice-to-flux2.svg",
+    "cardImage": "covers/2026-09-10-flow-matching-nice-to-flux2.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-10-flow-matching-nice-to-flux2.md"
+  },
+  {
     "slug": "2026-09-09-prof-g-storytelling-playbook",
     "title": "See What Others Miss: The Prof G Storytelling Playbook",
     "author": "Mia Silverio & Scott Galloway",
