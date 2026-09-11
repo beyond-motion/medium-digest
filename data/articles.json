@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-11-pr-bottleneck-is-a-symptom",
+    "title": "The PR bottleneck is a symptom",
+    "author": "Matt Whetton",
+    "date": "2026-09-11T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/analysts-corner/the-pr-bottleneck-is-a-symptom-a9eba64f15f4",
+    "status": "processed",
+    "excerpt": "agent 提出的工作量超过问题本身的需要，评审队列只是下游症状——真正的缺口在 approach 阶段：那是「说不」只花一场对话的唯一时点，而人会不假思索替自己把关，agent 不会。",
+    "image": "covers/2026-09-11-pr-bottleneck-is-a-symptom.svg",
+    "cardImage": "covers/2026-09-11-pr-bottleneck-is-a-symptom.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-11-pr-bottleneck-is-a-symptom.md"
+  },
+  {
+    "slug": "2026-09-11-agent-code-ownership",
+    "title": "What ownership means when agents write the code",
+    "author": "Edgar Bermudez",
+    "date": "2026-09-11T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@viajesubmarino/what-ownership-means-when-agents-write-the-code-ae269f04ace5",
+    "status": "processed",
+    "excerpt": "agent 能实现、评审甚至部署软件，但责任仍须有处安放——所有权是理解并指导系统的能力，问责是为启用它的决定负责；两者都不能靠「人类会评审代码」这句话自动保全。",
+    "image": "covers/2026-09-11-agent-code-ownership.svg",
+    "cardImage": "covers/2026-09-11-agent-code-ownership.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-11-agent-code-ownership.md"
+  },
+  {
+    "slug": "2026-09-11-llm-app-demo-vs-production",
+    "title": "Why Your LLM App Works in Demo but Fails in Production",
+    "author": "Divya Shakti Tripathi",
+    "date": "2026-09-11T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@divy8555/why-your-llm-app-works-in-demo-but-fails-in-production-743a92682890",
+    "status": "processed",
+    "excerpt": "demo 与生产之间的差距不在 AI，而在 AI 周围的一切：精选输入、对抗用户、延迟、成本、边缘情况、规模、可观测性、错误处理、评估策略——九件事决定了你准备好的是 demo 还是产品。",
+    "image": "covers/2026-09-11-llm-app-demo-vs-production.svg",
+    "cardImage": "covers/2026-09-11-llm-app-demo-vs-production.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-11-llm-app-demo-vs-production.md"
+  },
+  {
     "slug": "2026-09-10-deaf-cant-opt-out",
     "title": "Deaf People Can't Opt Out of the Hearing World (Trust Me, We've Tried)",
     "author": "Mark Drolsbaugh",
