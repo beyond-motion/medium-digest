@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-12-agent-memory-from-retrieval-to-state",
+    "title": "From retrieval to state: rethinking long-term memory for AI agents",
+    "author": "Ruxi Zhang",
+    "date": "2026-09-12T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@ruxiz2005/from-retrieval-to-state-rethinking-long-term-memory-for-ai-agents-4edfcc553ee0",
+    "status": "processed",
+    "excerpt": "长期记忆不只是检索——更难的问题是「鉴于发生的一切，agent 现在该相信什么」。作者在构建 TypedMem 时靠一个 resolver 把过期记忆错误从 37% 降到零、基准准确率从 33% 提到 78%，由此提出面向状态的记忆模型。",
+    "image": "covers/2026-09-12-agent-memory-from-retrieval-to-state.svg",
+    "cardImage": "covers/2026-09-12-agent-memory-from-retrieval-to-state.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-12-agent-memory-from-retrieval-to-state.md"
+  },
+  {
+    "slug": "2026-09-12-ship-agent-plugins",
+    "title": "Stop Shipping Individual MCP Servers. Start Shipping Agent Plugins",
+    "author": "Andrii Tkachuk",
+    "date": "2026-09-12T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@andrii_tkachuk/stop-shipping-individual-mcp-servers-start-shipping-agent-plugins",
+    "status": "processed",
+    "excerpt": "MCP 解决「能连什么」，Skill 解决「怎么干活」，2026 年 8 月公开的 Agent Plugins 1.0 规范把两者打包成可分发的完整能力——agent 能力正在变得可组合、可版本化、可分发、且日益可移植。",
+    "image": "covers/2026-09-12-ship-agent-plugins.svg",
+    "cardImage": "covers/2026-09-12-ship-agent-plugins.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-12-ship-agent-plugins.md"
+  },
+  {
     "slug": "2026-09-11-pr-bottleneck-is-a-symptom",
     "title": "The PR bottleneck is a symptom",
     "author": "Matt Whetton",
