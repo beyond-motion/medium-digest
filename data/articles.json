@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-13-sqlite-hybrid-search",
+    "title": "I Replaced Chroma, Qdrant, and Pinecone With a SQLite File",
+    "author": "Ashray Adhikari",
+    "date": "2026-09-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@ashrayadhikari/i-replaced-chroma-qdrant-and-pinecone-with-a-sqlite-file-1ae5210c85d4",
+    "status": "processed",
+    "excerpt": "不需要守护进程的向量检索：SQLite FTS5（BM25）+ usearch HNSW + 倒数排名融合，全部状态装进一个文件——侧车索引让 10 万文档的启动从 14.6 秒降到 40 毫秒，混合检索把召回率从 0.883 拉回 0.993。",
+    "image": "covers/2026-09-13-sqlite-hybrid-search.svg",
+    "cardImage": "covers/2026-09-13-sqlite-hybrid-search.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-13-sqlite-hybrid-search.md"
+  },
+  {
+    "slug": "2026-09-13-multi-model-not-independent",
+    "title": "Multi-Model Is Not the Same as Independent",
+    "author": "Zyane",
+    "date": "2026-09-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@zyane/multi-model-is-not-the-same-as-independent-f2cba30a3885",
+    "status": "processed",
+    "excerpt": "抽象擅长让依赖从视野里消失，不擅长让依赖真的消失——网关让你更容易换模型，同时把路由、计费、策略、可观测性集中到一个更难换掉的层里；「多供应商」是有用的描述，却是独立性薄弱的证明。",
+    "image": "covers/2026-09-13-multi-model-not-independent.svg",
+    "cardImage": "covers/2026-09-13-multi-model-not-independent.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-13-multi-model-not-independent.md"
+  },
+  {
+    "slug": "2026-09-13-not-rogue-agents-misconfigured",
+    "title": "They're not \"rogue agents\", they're misconfigured",
+    "author": "Dr. Yim Register",
+    "date": "2026-09-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@yimregister/theyre-not-rogue-agents-they-re-misconfigured-6196d24d488c",
+    "status": "processed",
+    "excerpt": "杀死我们的不会是「失控的 AI」，而是速度与无知——OpenAI 沙盒逃逸、Replit 删库、Claude「勒索」事件的共同点不是智能失控，而是人类配置失误，而防护知识已经存在了几十年。",
+    "image": "covers/2026-09-13-not-rogue-agents-misconfigured.svg",
+    "cardImage": "covers/2026-09-13-not-rogue-agents-misconfigured.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-13-not-rogue-agents-misconfigured.md"
+  },
+  {
     "slug": "2026-09-12-agent-memory-from-retrieval-to-state",
     "title": "From retrieval to state: rethinking long-term memory for AI agents",
     "author": "Ruxi Zhang",
