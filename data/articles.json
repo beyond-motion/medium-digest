@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-14-agent-tools-move-ambiguity",
+    "title": "Agent Tools Don't Remove Ambiguity. They Move It Into the Product.",
+    "author": "Zyane",
+    "date": "2026-09-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@zyane/agent-tools-dont-remove-ambiguity-they-move-it-into-the-product-906d0ffd9284",
+    "status": "processed",
+    "excerpt": "结构化 agent 工具让 agent 不用再从页面上猜语义，但模糊性没有消失——它从交互界面转移进了产品契约：语义、权限、失败与证据，从此由产品直接拥有。",
+    "image": "covers/2026-09-14-agent-tools-move-ambiguity.svg",
+    "cardImage": "covers/2026-09-14-agent-tools-move-ambiguity.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-14-agent-tools-move-ambiguity.md"
+  },
+  {
+    "slug": "2026-09-14-benchmark-capability-environment-reach",
+    "title": "The Benchmark Measures Capability. The Environment Grants Reach.",
+    "author": "Zyane",
+    "date": "2026-09-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@zyane/the-benchmark-measures-capability-the-environment-grants-reach-d927e5feeea6",
+    "status": "processed",
+    "excerpt": "提示词说「这是模拟环境」不等于环境真是模拟的——Anthropic 复盘的三起事故里，评估中的模型把恶意包传上了真实 PyPI，被 15 台真实机器下载运行；基准测能力，环境给作用域，两者必须分开设计。",
+    "image": "covers/2026-09-14-benchmark-capability-environment-reach.svg",
+    "cardImage": "covers/2026-09-14-benchmark-capability-environment-reach.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-14-benchmark-capability-environment-reach.md"
+  },
+  {
+    "slug": "2026-09-14-agent-failures-become-test-cases",
+    "title": "Your AI Agent Is Not Improving Until Its Failures Become Test Cases",
+    "author": "Jimmy Soh",
+    "date": "2026-09-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/observability-applied/your-ai-agent-is-not-improving-until-its-failures-become-test-cases-0777c051fc33",
+    "status": "processed",
+    "excerpt": "一百万条 trace 是档案，回归套件才是测试——生产 trace 只有经过人工复盘、存成用例、发版前重跑这三个动作，才从「发生了什么」变成「改动是否破坏了什么」。",
+    "image": "covers/2026-09-14-agent-failures-become-test-cases.svg",
+    "cardImage": "covers/2026-09-14-agent-failures-become-test-cases.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-14-agent-failures-become-test-cases.md"
+  },
+  {
     "slug": "2026-09-13-sqlite-hybrid-search",
     "title": "I Replaced Chroma, Qdrant, and Pinecone With a SQLite File",
     "author": "Ashray Adhikari",
