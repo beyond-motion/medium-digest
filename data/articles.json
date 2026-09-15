@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-15-rag-score-hiding-broken-half",
+    "title": "[deepeval/03] Your RAG Score Is Hiding Which Half Is Broken",
+    "author": "Tuhin Sharma",
+    "date": "2026-09-15T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@tuhinsharma121/deepeval-03-your-rag-score-is-hiding-which-half-is-broken-208e40037669",
+    "status": "processed",
+    "excerpt": "faithfulness 自上线全绿，用户却在报错答——RAG 的一个总分说不出该修检索还是该修提示词；把检索质量与生成质量拆成两条指标线（3+2），再让两个故意埋下的陷阱告诉你哪个指标看见了什么。",
+    "image": "covers/2026-09-15-rag-score-hiding-broken-half.svg",
+    "cardImage": "covers/2026-09-15-rag-score-hiding-broken-half.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-15-rag-score-hiding-broken-half.md"
+  },
+  {
+    "slug": "2026-09-15-openai-image-model-split",
+    "title": "OpenAI Split Its Image Model in Two. The Interesting Part Isn't Speed.",
+    "author": "Alex Lu",
+    "date": "2026-09-15T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@alex9328_99959/openai-split-its-image-model-in-two-the-interesting-part-isnt-speed-8b0b3fd864a7",
+    "status": "processed",
+    "excerpt": "GPT-image-2.5 拆成 flare 与 sunburst 两档——第一次不按大小快慢、而按「产生一张图还是修订一张图」分拆：任何人都能出像样的第一帧，差距在第 5 次修订时打开。",
+    "image": "covers/2026-09-15-openai-image-model-split.svg",
+    "cardImage": "covers/2026-09-15-openai-image-model-split.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-15-openai-image-model-split.md"
+  },
+  {
+    "slug": "2026-09-15-architecture-of-ai-risk",
+    "title": "The Architecture of AI Risk",
+    "author": "Zyane",
+    "date": "2026-09-15T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/3k-technologies/the-architecture-of-ai-risk-5a4d249b4466",
+    "status": "processed",
+    "excerpt": "AI 风险不是模型能力的函数，而是「授予的权限 × 不可逆性 × 校验缺口」的乘积——招聘财务主管没人先问智商，问的是权限与审批；我们对 AI 却把整套纪律反转了。",
+    "image": "covers/2026-09-15-architecture-of-ai-risk.svg",
+    "cardImage": "covers/2026-09-15-architecture-of-ai-risk.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-15-architecture-of-ai-risk.md"
+  },
+  {
     "slug": "2026-09-14-agent-tools-move-ambiguity",
     "title": "Agent Tools Don't Remove Ambiguity. They Move It Into the Product.",
     "author": "Zyane",
