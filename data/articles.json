@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-16-year-scaling-became-a-law",
+    "title": "Bigger Was the Whole Idea: The Year Scaling Became a Law",
+    "author": "Cordero Core",
+    "date": "2026-09-16T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@cdcore/bigger-was-the-whole-idea-the-year-scaling-became-a-law-f9873515e0f4",
+    "status": "processed",
+    "excerpt": "2020 年一张 log-log 直线把「做大点」从直觉变成可以押上千万美元的定律（Kaplan 缩放定律），GPT-3 则带着没人故意放进去的 in-context learning 出场——很多看起来像智能的东西，是简单目标加一片海洋般的规模。",
+    "image": "covers/2026-09-16-year-scaling-became-a-law.svg",
+    "cardImage": "covers/2026-09-16-year-scaling-became-a-law.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-16-year-scaling-became-a-law.md"
+  },
+  {
+    "slug": "2026-09-16-constitutional-ai",
+    "title": "Constitutional AI: Teaching a Model Right from Wrong",
+    "author": "Cordero Core",
+    "date": "2026-09-16T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@cdcore/constitutional-ai-teaching-a-model-right-from-wrong-34a1c2859a9c",
+    "status": "processed",
+    "excerpt": "模型那句礼貌的「我帮不了这个，但可以试试这些」是怎么训练出来的？Constitutional AI 的答案：给模型一份成文原则，让它自我批评、自我修订，再让 AI 自己供给偏好标签（RLAIF）——但「哪些结果算好」的责任无法自动化。",
+    "image": "covers/2026-09-16-constitutional-ai.svg",
+    "cardImage": "covers/2026-09-16-constitutional-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-16-constitutional-ai.md"
+  },
+  {
+    "slug": "2026-09-16-responsible-ai-coding-playbook",
+    "title": "The Responsible AI Coding Playbook",
+    "author": "Aaleen Mirza",
+    "date": "2026-09-16T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@aaleenmirza110/the-responsible-ai-coding-playbook-bfb34bac2d32",
+    "status": "processed",
+    "excerpt": "「评审逻辑，别只看语法」是好建议，但没人告诉你怎么做——这一篇全是实操：常驻规则文件、工单式 prompt、扩展性与安全两道追问、异构模型交叉评审、以及自己写 commit message。",
+    "image": "covers/2026-09-16-responsible-ai-coding-playbook.svg",
+    "cardImage": "covers/2026-09-16-responsible-ai-coding-playbook.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-16-responsible-ai-coding-playbook.md"
+  },
+  {
     "slug": "2026-09-15-rag-score-hiding-broken-half",
     "title": "[deepeval/03] Your RAG Score Is Hiding Which Half Is Broken",
     "author": "Tuhin Sharma",
