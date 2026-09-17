@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-17-how-an-llm-inference-engine-works",
+    "title": "How an LLM Inference Engine Works",
+    "author": "0xA!M",
+    "date": "2026-09-17T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@0xA1M/how-an-llm-inference-engine-works-df2b9a921d12",
+    "status": "processed",
+    "excerpt": "你按下回车到模型吐出第一个字之间发生了什么？token 循环、KV cache、连续批处理、调度器、PagedAttention——推理引擎不是神经网络，而是一套围绕神经网络的操作系统。",
+    "image": "covers/2026-09-17-how-an-llm-inference-engine-works.svg",
+    "cardImage": "covers/2026-09-17-how-an-llm-inference-engine-works.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-17-how-an-llm-inference-engine-works.md"
+  },
+  {
+    "slug": "2026-09-17-the-code-is-only-half-the-review",
+    "title": "The Code Is Only Half the Review",
+    "author": "Andras Ludanyi",
+    "date": "2026-09-17T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@aludanyi/the-code-is-only-half-the-review-88b7cd61eab6",
+    "status": "processed",
+    "excerpt": "代码评审的单位不是 diff，而是产生代码的那个交互过程。AI 时代评审的真正产出不是更少的缺陷，而是下一次生成时更好的上下文——以及一个检验「团队对系统的理论」的实验场。",
+    "image": "covers/2026-09-17-the-code-is-only-half-the-review.svg",
+    "cardImage": "covers/2026-09-17-the-code-is-only-half-the-review.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-17-the-code-is-only-half-the-review.md"
+  },
+  {
     "slug": "2026-09-16-year-scaling-became-a-law",
     "title": "Bigger Was the Whole Idea: The Year Scaling Became a Law",
     "author": "Cordero Core",
