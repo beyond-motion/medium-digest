@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-18-a-60-year-coders-rule-dont-read-ai-agent-code",
+    "title": "A 60-Year Coder’s Rule: Don’t Read AI Agent Code",
+    "author": "AI Engineering",
+    "date": "2026-09-18T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@ai-engineering-trend/a-60-year-coders-rule-don-t-read-ai-agent-code-f9ce98563626",
+    "status": "processed",
+    "excerpt": "Uncle Bob 的争议主张：别逐行读 AI 写的代码，把 agent 关进极端约束里——单元测试、变异测试、8 道质量关卡。开源工具 old-coder 把这套「人审两端、中间全自动」的 TDD 铁笼做成了开箱即用的 markdown。",
+    "image": "covers/2026-09-18-a-60-year-coders-rule-dont-read-ai-agent-code.svg",
+    "cardImage": "covers/2026-09-18-a-60-year-coders-rule-dont-read-ai-agent-code.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-18-a-60-year-coders-rule-dont-read-ai-agent-code.md"
+  },
+  {
+    "slug": "2026-09-18-my-ideal-ai-qa-workflow",
+    "title": "My ideal AI QA Workflow — more than test case generation",
+    "author": "Adrian How 侯智腾",
+    "date": "2026-09-18T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/automated-testing/my-ideal-ai-qa-workflow-more-than-test-case-generation-f13b73d256d8",
+    "status": "processed",
+    "excerpt": "AI 演示总在「生成测试」就收场，真正的难点是周围的一切。作者把 AI 嵌进从需求评审到合并请求的完整 QA 工作流：每步给 SOP、知识住进仓库分层 AGENTS.md、信息缺失留 TODO——prompt 很好，但别让它独自扛起整个 SDLC。",
+    "image": "covers/2026-09-18-my-ideal-ai-qa-workflow.svg",
+    "cardImage": "covers/2026-09-18-my-ideal-ai-qa-workflow.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-18-my-ideal-ai-qa-workflow.md"
+  },
+  {
+    "slug": "2026-09-18-why-would-an-ai-company-ask-the-government-to-slow-ai-down",
+    "title": "Why Would an AI Company Ask the Government to Slow AI Down?",
+    "author": "Andras Ludanyi",
+    "date": "2026-09-18T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@aludanyi/why-would-an-ai-company-ask-the-government-to-slow-ai-down-e896b21e2208",
+    "status": "processed",
+    "excerpt": "AI 公司 CEO 请政府给自家行业踩刹车，听起来自相矛盾——除非从激励第一性原理重建：这是协调问题加上自利动机的叠加。判断标准不是 CEO 真不真诚，而是提议的规则把成本压给谁、把控制权给谁。",
+    "image": "covers/2026-09-18-why-would-an-ai-company-ask-the-government-to-slow-ai-down.svg",
+    "cardImage": "covers/2026-09-18-why-would-an-ai-company-ask-the-government-to-slow-ai-down.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-18-why-would-an-ai-company-ask-the-government-to-slow-ai-down.md"
+  },
+  {
     "slug": "2026-09-17-how-an-llm-inference-engine-works",
     "title": "How an LLM Inference Engine Works",
     "author": "0xA!M",
