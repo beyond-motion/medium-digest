@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-19-a-baseline-rag-and-a-golden-set-before-any-optimisation",
+    "title": "A Baseline RAG and a Golden Set Before Any Optimisation",
+    "author": "Nadeem Khan (NK)",
+    "date": "2026-09-19T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/learnwithnk/a-baseline-rag-and-a-golden-set-before-any-optimisation-c0c45de5847b",
+    "status": "processed",
+    "excerpt": "修好 6 个回答同时弄坏 3 个的改动，报表上只显示「+3」。作者给出 RAG 优化的前置三件套：一条刻意朴素的基线管线、一份带证据 span 的黄金问题集、一张能逐题对比两次运行的记分卡——全部冻在同一个版本下。",
+    "image": "covers/2026-09-19-a-baseline-rag-and-a-golden-set-before-any-optimisation.svg",
+    "cardImage": "covers/2026-09-19-a-baseline-rag-and-a-golden-set-before-any-optimisation.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-19-a-baseline-rag-and-a-golden-set-before-any-optimisation.md"
+  },
+  {
+    "slug": "2026-09-19-beyond-simple-transcripts-meeting-intelligence",
+    "title": "Beyond Simple Transcripts: Building an End-to-End AI System for Actionable Meeting Intelligence",
+    "author": "NextBaseAI",
+    "date": "2026-09-19T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/towards-explainable-ai/beyond-simple-transcripts-building-an-end-to-end-ai-system-for-actionable-meeting-intelligence-8ac019dcc1bb",
+    "status": "processed",
+    "excerpt": "一小时的会，二十分钟才能翻完转写找出三句真正要紧的话——转写早已被 Whisper 解决，摩擦在上面一层：把「我们聊过」变成「谁、在周五前、做什么」的 NLU 结构化，才是会议智能真正的工程难点。",
+    "image": "covers/2026-09-19-beyond-simple-transcripts-meeting-intelligence.svg",
+    "cardImage": "covers/2026-09-19-beyond-simple-transcripts-meeting-intelligence.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-19-beyond-simple-transcripts-meeting-intelligence.md"
+  },
+  {
+    "slug": "2026-09-19-design-md-give-your-ai-a-design-system-it-cant-ignore",
+    "title": "DESIGN.md: Give Your AI a Design System It Can't Ignore",
+    "author": "John Narus",
+    "date": "2026-09-19T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@john.narus/design-md-give-your-ai-a-design-system-it-cant-ignore-d8e23ff29358",
+    "status": "processed",
+    "excerpt": "让 AI 编码工具建三个页面，你会得到三种深浅不一的「你的」蓝。解法是 DESIGN.md——Google Labs 2026 年 4 月开源的格式：上半 YAML 给机器可读的精确值，下半固定小节的散文讲清「为什么」，还能像代码一样 lint 和 diff。",
+    "image": "covers/2026-09-19-design-md-give-your-ai-a-design-system-it-cant-ignore.svg",
+    "cardImage": "covers/2026-09-19-design-md-give-your-ai-a-design-system-it-cant-ignore.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-19-design-md-give-your-ai-a-design-system-it-cant-ignore.md"
+  },
+  {
     "slug": "2026-09-18-a-60-year-coders-rule-dont-read-ai-agent-code",
     "title": "A 60-Year Coder’s Rule: Don’t Read AI Agent Code",
     "author": "AI Engineering",
