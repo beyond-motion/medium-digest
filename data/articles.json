@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-20-what-buddhism-taught-software-engineering",
+    "title": "What Buddhism Taught Software Engineering",
+    "author": "Andras Ludanyi",
+    "date": "2026-09-20T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@aludanyi/what-buddhism-taught-software-engineering-ca04378726ad",
+    "status": "processed",
+    "excerpt": "从佛教到软件没有一条令人信服的因果链，只有一张文化网络：禅、日本美学、武道、丰田、美国反主流文化与硅谷反复相遇。软件继承的不是「禅」，而是「实践作为认知方式」——然后一次又一次把它变成教条。",
+    "image": "covers/2026-09-20-what-buddhism-taught-software-engineering.svg",
+    "cardImage": "covers/2026-09-20-what-buddhism-taught-software-engineering.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-20-what-buddhism-taught-software-engineering.md"
+  },
+  {
+    "slug": "2026-09-20-why-your-agent-needs-memory-and-how-to-organize-it",
+    "title": "Why Your Agent Needs Memory, and How to Organize It",
+    "author": "Volodymyr Vreshch",
+    "date": "2026-09-20T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/generative-ai/why-your-agent-needs-memory-and-how-to-organize-it-4509a900152e",
+    "status": "processed",
+    "excerpt": "Agent 记忆不是它已知知识的副本，而是 delta——模型猜不出的那部分。作者用 181 个主题文件、四条单元测试、三条存储要求和「agent 提议、人类批准」的守则，论证 markdown 文件加 git 在他的规模上全面胜出。",
+    "image": "covers/2026-09-20-why-your-agent-needs-memory-and-how-to-organize-it.svg",
+    "cardImage": "covers/2026-09-20-why-your-agent-needs-memory-and-how-to-organize-it.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-20-why-your-agent-needs-memory-and-how-to-organize-it.md"
+  },
+  {
     "slug": "2026-09-19-a-baseline-rag-and-a-golden-set-before-any-optimisation",
     "title": "A Baseline RAG and a Golden Set Before Any Optimisation",
     "author": "Nadeem Khan (NK)",
