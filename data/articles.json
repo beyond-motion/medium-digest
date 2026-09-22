@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-21-how-to-use-ai-for-data-analysis-without-losing-thinking-skills",
+    "title": "How to Use AI for Data Analysis Without Losing Thinking Skills",
+    "author": "Benjamin Bennett Alexander",
+    "date": "2026-09-21T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@benjamin.BA/how-to-use-ai-for-data-analysis-without-losing-thinking-skills-e6b109a07d2e",
+    "status": "processed",
+    "excerpt": "上传数据集、秒出分析，便捷背后是「学习的错觉」。作者给出 5 种让 AI 强化而非替代你思考的用法：把它当任务生成器和导师、只要解释不要答案、让它做评审而不是替工、 fundamentals 从结构化资源学、用迭代式 prompt 保持小步可查。",
+    "image": "covers/2026-09-21-how-to-use-ai-for-data-analysis-without-losing-thinking-skills.svg",
+    "cardImage": "covers/2026-09-21-how-to-use-ai-for-data-analysis-without-losing-thinking-skills.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-21-how-to-use-ai-for-data-analysis-without-losing-thinking-skills.md"
+  },
+  {
+    "slug": "2026-09-21-political-a-b-testing",
+    "title": "Political A/B Testing: What Campaign Optimization Teaches Product Teams",
+    "author": "Atticus | Better Decisions",
+    "date": "2026-09-21T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@atticusli/political-a-b-testing-what-campaign-optimization-teaches-product-teams-5736c56bc269",
+    "status": "processed",
+    "excerpt": "从奥巴马 2008 一张家庭照片换 4000 万美元，到 bandit 算法统治 30 天倒计时竞选——政治 A/B 测试是高压实验的大师课：直觉自信地错着、微转化层层复利、伦理问题比商业测试赤裸得多。",
+    "image": "covers/2026-09-21-political-a-b-testing.svg",
+    "cardImage": "covers/2026-09-21-political-a-b-testing.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-21-political-a-b-testing.md"
+  },
+  {
+    "slug": "2026-09-21-the-frontier-is-not-yet-built",
+    "title": "The Frontier Is Not Yet Built",
+    "author": "Antonio",
+    "date": "2026-09-21T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@antcll/the-frontier-is-not-yet-built-92b126c7a444",
+    "status": "processed",
+    "excerpt": "一位建造者对 Dario Amodei 减速论的回应：我们争辩智能该多快前进，却让智能本应使之可能的文明停留在图纸上。前沿不是模型，是地球之外的工业基地——而 greater intelligence 必须永不自动兑换成 greater authority。",
+    "image": "covers/2026-09-21-the-frontier-is-not-yet-built.svg",
+    "cardImage": "covers/2026-09-21-the-frontier-is-not-yet-built.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-21-the-frontier-is-not-yet-built.md"
+  },
+  {
     "slug": "2026-09-20-what-buddhism-taught-software-engineering",
     "title": "What Buddhism Taught Software Engineering",
     "author": "Andras Ludanyi",
