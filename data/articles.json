@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-22-cuped-variance-reduction-in-ab-testing-explained",
+    "title": "CUPED Variance Reduction in A/B Testing, Explained",
+    "author": "Atticus | Better Decisions",
+    "date": "2026-09-22T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@atticusli/cuped-variance-reduction-in-a-b-testing-explained-6c3d79866e0d",
+    "status": "processed",
+    "excerpt": "不加一个访客，把 A/B 测试时长砍掉 20-50%：CUPED 用实验前行为做协变量剥掉可预测的噪声。微软、Netflix、Booking.com（年 25,000 个实验）都在用——何时灵、何时失灵、以及怎么在平台里打开它。",
+    "image": "covers/2026-09-22-cuped-variance-reduction-in-ab-testing-explained.svg",
+    "cardImage": "covers/2026-09-22-cuped-variance-reduction-in-ab-testing-explained.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-22-cuped-variance-reduction-in-ab-testing-explained.md"
+  },
+  {
+    "slug": "2026-09-22-flawed-premises-in-ai-doomerism",
+    "title": "Flawed premises in \"AI\" doomerism",
+    "author": "Amy J. Ko",
+    "date": "2026-09-22T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/bits-and-behavior/flawed-premises-in-ai-doomerism-68d01677f564",
+    "status": "processed",
+    "excerpt": "一位人本主义计算机科学家逐条拆解 AI 末日论的五个前提：我们不能自卫、技术不可阻挡、一切皆数据、一切皆理性、这次不同——每个里面都藏着一个错误的隐藏前提，而最深的那个是「权力在技术里」。",
+    "image": "covers/2026-09-22-flawed-premises-in-ai-doomerism.svg",
+    "cardImage": "covers/2026-09-22-flawed-premises-in-ai-doomerism.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-22-flawed-premises-in-ai-doomerism.md"
+  },
+  {
+    "slug": "2026-09-22-the-weights-that-got-out",
+    "title": "The Weights That Got Out: The Year AI Escaped the API",
+    "author": "Cordero Core",
+    "date": "2026-09-22T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@cdcore/the-weights-that-got-out-the-year-ai-escaped-the-api-194eb8653fa5",
+    "status": "processed",
+    "excerpt": "2023 年 2 月 Meta 以研究许可发布 Llama，一周后权重上了种子网络；llama.cpp 让它跑进 CPU，Alpaca 用 500 美元教会它当助手，QLoRA 把微调塞进一张卡。How We Got Here 第 15 集：AI 如何逃出 API——以及「开放权重」不等于开源的那笔账。",
+    "image": "covers/2026-09-22-the-weights-that-got-out.svg",
+    "cardImage": "covers/2026-09-22-the-weights-that-got-out.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-22-the-weights-that-got-out.md"
+  },
+  {
     "slug": "2026-09-21-how-to-use-ai-for-data-analysis-without-losing-thinking-skills",
     "title": "How to Use AI for Data Analysis Without Losing Thinking Skills",
     "author": "Benjamin Bennett Alexander",
