@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-23-guardrails-streaming-and-the-ux-trade-off",
+    "title": "Guardrails, Streaming, and the UX Trade-off",
+    "author": "Anand Subramanian",
+    "date": "2026-09-23T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/data-science-collective/guardrails-streaming-and-the-ux-trade-off-d61704eea66b",
+    "status": "processed",
+    "excerpt": "流式输出要把 token 尽早给用户，护栏却要在暴露前看够上下文——两者天生打架。作者拆解 AWS Bedrock、Azure、Google Model Armor、NeMo Guardrails 的不同答案：缓冲、异步、语义分块，没有魔法数字，只有延迟/上下文/暴露三角里的运营点选择。",
+    "image": "covers/2026-09-23-guardrails-streaming-and-the-ux-trade-off.svg",
+    "cardImage": "covers/2026-09-23-guardrails-streaming-and-the-ux-trade-off.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-23-guardrails-streaming-and-the-ux-trade-off.md"
+  },
+  {
+    "slug": "2026-09-23-i-shipped-an-llm-feature-to-production-the-model-was-the-easy-part",
+    "title": "I Shipped an LLM Feature to Production. The Model Was the Easy Part.",
+    "author": "Rohith Kanchanapalli",
+    "date": "2026-09-23T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@rohithraajk/i-shipped-an-llm-feature-to-production-the-model-was-the-easy-part-17fb23970a80",
+    "status": "processed",
+    "excerpt": "Demo 一个周末，生产六个月。作者复盘真实上线：eval 集才是产品、延迟是预算、40 美分的多 agent 管线被 0.2 美分的分类器换掉、模型会在你脚下漂移——模型只是系统里大约百分之十的那部分。",
+    "image": "covers/2026-09-23-i-shipped-an-llm-feature-to-production-the-model-was-the-easy-part.svg",
+    "cardImage": "covers/2026-09-23-i-shipped-an-llm-feature-to-production-the-model-was-the-easy-part.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-23-i-shipped-an-llm-feature-to-production-the-model-was-the-easy-part.md"
+  },
+  {
+    "slug": "2026-09-23-what-if-stable-teams-are-carrying-more-than-we-think",
+    "title": "What If Stable Teams Are Carrying More Than We Think?",
+    "author": "Andras Ludanyi",
+    "date": "2026-09-23T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@aludanyi/what-if-stable-teams-are-carrying-more-than-we-think-28d0eea6ae59",
+    "status": "processed",
+    "excerpt": "稳定同址的团队屡屡被证明高效——但那也许不是原因，而是补偿：替组织吸收昂贵协调、不可及信息与困在人脑里的知识。借用大野耐一问库存的方式发问：能不能重排工作系统，让补偿不再被需要？",
+    "image": "covers/2026-09-23-what-if-stable-teams-are-carrying-more-than-we-think.svg",
+    "cardImage": "covers/2026-09-23-what-if-stable-teams-are-carrying-more-than-we-think.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-23-what-if-stable-teams-are-carrying-more-than-we-think.md"
+  },
+  {
     "slug": "2026-09-22-cuped-variance-reduction-in-ab-testing-explained",
     "title": "CUPED Variance Reduction in A/B Testing, Explained",
     "author": "Atticus | Better Decisions",
