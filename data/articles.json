@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-09-24-a-memory-can-be-correct-and-still-need-to-be-deleted",
+    "title": "A Memory Can Be Correct and Still Need to Be Deleted",
+    "author": "Zyane",
+    "date": "2026-09-24T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@zyane/a-memory-can-be-correct-and-still-need-to-be-deleted-773ba4912ac8",
+    "status": "processed",
+    "excerpt": "「删除记忆」听起来是一条指令，其实是两种不同的操作：删持久状态，删产生它的对话。AI 记忆的难点在写入之后——谁能查看、纠正、限定范围、暂停、移除那些开始塑造未来会话的持久状态？以 Claude 的记忆公告为例拆解分层权威模型。",
+    "image": "covers/2026-09-24-a-memory-can-be-correct-and-still-need-to-be-deleted.svg",
+    "cardImage": "covers/2026-09-24-a-memory-can-be-correct-and-still-need-to-be-deleted.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-24-a-memory-can-be-correct-and-still-need-to-be-deleted.md"
+  },
+  {
+    "slug": "2026-09-24-attention-explained-with-one-simple-sentence",
+    "title": "Attention Explained With One Simple Sentence",
+    "author": "Muzammilahsan",
+    "date": "2026-09-24T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@muzammilahsan07/attention-explained-with-one-simple-sentence-eb8b2bf4ae6c",
+    "status": "processed",
+    "excerpt": "「The animal didn't cross the road because it was tired」里的 it 指什么？从这一个例子出发，走完 attention 的全部 23 站：词不孤立、上下文是难题、Q/K/V 图书馆类比、√dₖ 缩放、softmax 归一、多头并行——直到公式不再吓人。",
+    "image": "covers/2026-09-24-attention-explained-with-one-simple-sentence.svg",
+    "cardImage": "covers/2026-09-24-attention-explained-with-one-simple-sentence.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-24-attention-explained-with-one-simple-sentence.md"
+  },
+  {
+    "slug": "2026-09-24-coding-agents-arent-your-teammates-yet",
+    "title": "Coding agents aren’t your teammates yet",
+    "author": "Jindo AI",
+    "date": "2026-09-24T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@james_66157/coding-agents-arent-your-teammates-yet-e61f8158de7f",
+    "status": "processed",
+    "excerpt": "每个 agent 都完成了任务并报告成功，合并却当场崩塌。作者用 CooperBench、TheAgentCompany、MAST 三个基准量化并行编码 agent 的三类失调——代码漂移、决策困在单会话、无上下文交接——并诚实公布协调层换来的收益（共识 3→9、遵守决策 0→12）与代价（1.5 倍步骤）。",
+    "image": "covers/2026-09-24-coding-agents-arent-your-teammates-yet.svg",
+    "cardImage": "covers/2026-09-24-coding-agents-arent-your-teammates-yet.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-24-coding-agents-arent-your-teammates-yet.md"
+  },
+  {
     "slug": "2026-09-23-guardrails-streaming-and-the-ux-trade-off",
     "title": "Guardrails, Streaming, and the UX Trade-off",
     "author": "Anand Subramanian",
