@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-09-25-when-does-a-team-need-to-stay-together",
+    "title": "When Does a Team Need to Stay Together?",
+    "author": "Andras Ludanyi",
+    "date": "2026-09-25T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@aludanyi/when-does-a-team-need-to-stay-together-a636b8bd714b",
+    "status": "processed",
+    "excerpt": "「团队该不该稳定同址」问错了层级——研发、探索、执行、维护是四种不确定性迥异的工作。按工作类型拆开看：稳定同址有时是组织缓冲，替信息系统背着知识和协调成本；而如果人们坐在一起只是因为没人能自己找到最新决策，办公室就是一个异常昂贵的数据库。",
+    "image": "covers/2026-09-25-when-does-a-team-need-to-stay-together.svg",
+    "cardImage": "covers/2026-09-25-when-does-a-team-need-to-stay-together.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-25-when-does-a-team-need-to-stay-together.md"
+  },
+  {
     "slug": "2026-09-24-a-memory-can-be-correct-and-still-need-to-be-deleted",
     "title": "A Memory Can Be Correct and Still Need to Be Deleted",
     "author": "Zyane",
