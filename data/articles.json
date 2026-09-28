@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-26-code-is-cheap-what-will-it-cost-to-operate",
+    "title": "Code Is Cheap. What Will It Cost to Operate?",
+    "author": "Richard J. Wolff",
+    "date": "2026-09-26T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@wolffrichardj/code-is-cheap-what-will-it-cost-to-operate-e21f60f2b5da",
+    "status": "processed",
+    "excerpt": "生成代码接近零成本后，人们容易把后续工作想成几个小尾巴。作者拆解副本继承的运营义务：专用实例与共享设计的取舍、AI agent 复用时被隐藏的依赖、MCP 工具调用背后被隐藏的工作负载，以及「判断债」——别人已经开始依赖结果，而没人说清谁拥有它。",
+    "image": "covers/2026-09-26-code-is-cheap-what-will-it-cost-to-operate.svg",
+    "cardImage": "covers/2026-09-26-code-is-cheap-what-will-it-cost-to-operate.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-26-code-is-cheap-what-will-it-cost-to-operate.md"
+  },
+  {
+    "slug": "2026-09-26-documentation-changes-when-the-reader-can-act",
+    "title": "Documentation Changes When the Reader Can Act",
+    "author": "Zyane",
+    "date": "2026-09-26T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@zyane/documentation-changes-when-the-reader-can-act-2fbd97ebab32",
+    "status": "processed",
+    "excerpt": "agent 能读懂清晰的指令、正确执行它，然后做错事——这才是比「模型能不能读 Markdown」更有意思的文档失败。当读者获得行动能力，检索、权威性、新鲜度和许可就成了文档契约的一部分：文字要活到行动为止。",
+    "image": "covers/2026-09-26-documentation-changes-when-the-reader-can-act.svg",
+    "cardImage": "covers/2026-09-26-documentation-changes-when-the-reader-can-act.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-26-documentation-changes-when-the-reader-can-act.md"
+  },
+  {
     "slug": "2026-09-25-when-does-a-team-need-to-stay-together",
     "title": "When Does a Team Need to Stay Together?",
     "author": "Andras Ludanyi",
