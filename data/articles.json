@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-09-29-dlss-5-makes-games-look-better",
+    "title": "DLSS 5 Makes Games Look Better, and That's Not Always a Good Thing",
+    "author": "Parham",
+    "date": "2026-09-29T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/after-the-update/dlss-5-makes-games-look-better-and-thats-not-always-a-good-thing-1886578d1056",
+    "status": "processed",
+    "excerpt": "DLSS 5 从「重建画面」变成了「生成画面」：神经渲染让游戏更接近照片级，却也顺手磨掉了艺术家故意留下的雀斑、疲惫和黑暗。技术上更好的图像，未必还是艺术家创造的那张图像——谁来开关、谁定边界，才是真问题。",
+    "image": "covers/2026-09-29-dlss-5-makes-games-look-better.svg",
+    "cardImage": "covers/2026-09-29-dlss-5-makes-games-look-better.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-29-dlss-5-makes-games-look-better.md"
+  },
+  {
     "slug": "2026-09-26-code-is-cheap-what-will-it-cost-to-operate",
     "title": "Code Is Cheap. What Will It Cost to Operate?",
     "author": "Richard J. Wolff",
