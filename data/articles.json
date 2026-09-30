@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-09-30-what-we-built-for-medium-editors",
+    "title": "What We Built for Medium Editors This Year (and What I Broke)",
+    "author": "Scott Batson",
+    "date": "2026-09-30T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/medium-eng/what-we-built-for-medium-editors-this-year-and-what-i-broke-1213c2746703",
+    "status": "processed",
+    "excerpt": "Medium 官方工程团队的编辑工具年度复盘：AI slop 没有可靠的检测器，只能靠批量拉黑、投稿硬门、发布历史速览这些工作流把垃圾变贵；开放投稿的公平性靠给编辑的工具补偿；一次部署把全站投稿搞挂一小时——以及为什么「自定义拒稿理由」因骚扰风险迟迟做不了。",
+    "image": "covers/2026-09-30-what-we-built-for-medium-editors.svg",
+    "cardImage": "covers/2026-09-30-what-we-built-for-medium-editors.svg",
+    "hash": "",
+    "file": "content/articles/2026-09-30-what-we-built-for-medium-editors.md"
+  },
+  {
     "slug": "2026-09-29-dlss-5-makes-games-look-better",
     "title": "DLSS 5 Makes Games Look Better, and That's Not Always a Good Thing",
     "author": "Parham",
