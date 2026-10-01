@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-01-everyone-is-watching-teslas-robot",
+    "title": "Everyone Is Watching Tesla's Robot. Nobody Is Watching the 6,500 Built in China.",
+    "author": "Jerry van der Laan",
+    "date": "2026-10-01T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/the-manifest-archive/everyone-is-watching-teslas-robot-nobody-is-watching-the-6-500-built-in-china-b0ccd330d272",
+    "status": "processed",
+    "excerpt": "2025 年中国厂商造了六千多台人形机器人，Unitree 的均价两年跌了 72%，山东的女工每小时 3 美元拍摄自己做饭洗衣——这一切的赌注不是机器人产量，而是「技能」正在从人的身体搬进可复制的模型。最后一辆 Model S 的签名还在车上，Fremont 的产线已经为「被测量而非被教育」的身体重新浇了地坪。",
+    "image": "covers/2026-10-01-everyone-is-watching-teslas-robot.svg",
+    "cardImage": "covers/2026-10-01-everyone-is-watching-teslas-robot.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-01-everyone-is-watching-teslas-robot.md"
+  },
+  {
     "slug": "2026-09-30-what-we-built-for-medium-editors",
     "title": "What We Built for Medium Editors This Year (and What I Broke)",
     "author": "Scott Batson",
