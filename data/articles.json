@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-02-economics-of-attention-in-the-age-of-ai",
+    "title": "The economics of attention in the age of AI",
+    "author": "Aurélie Radom",
+    "date": "2026-10-02T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/user-experience-design-1/the-economics-of-attention-in-the-age-of-ai-5f92e7e0fb49",
+    "status": "processed",
+    "excerpt": "过去二十年产品竞争的是「捕获注意力」，AI 时代竞争的是「替你省略它」：机器注意力正在变便宜，人类注意力成为新瓶颈。好 agent 的指标不是给你多少信息，而是它在开口之前筛掉了多少——最好的功能可能是你永远不必看见的东西，而真正稀缺的资源是「消耗注意力的许可」。",
+    "image": "covers/2026-10-02-economics-of-attention-in-the-age-of-ai.svg",
+    "cardImage": "covers/2026-10-02-economics-of-attention-in-the-age-of-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-02-economics-of-attention-in-the-age-of-ai.md"
+  },
+  {
     "slug": "2026-10-01-everyone-is-watching-teslas-robot",
     "title": "Everyone Is Watching Tesla's Robot. Nobody Is Watching the 6,500 Built in China.",
     "author": "Jerry van der Laan",
