@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-03-ways-of-working-for-ai-native-engineering-teams",
+    "title": "Ways of Working for AI-Native Engineering Teams, Part 1: When the Handoff Chain Collapses",
+    "author": "Timothy Akampa",
+    "date": "2026-10-03T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@timothyakampa/ways-of-working-for-ai-native-engineering-teams-part-1-when-the-handoff-chain-collapses-1be7e777e5c6",
+    "status": "processed",
+    "excerpt": "PM 把 PRD 递给设计、设计递给工程、工程递给 QA——这条交接链在 AI 原生团队里正在塌缩成一个环：人类共同塑形上游 spec，agent 跑中间的实现，人类守下游的验证与评审。不可验证的工作聚集在环的两端，中间可验证的部分越来越属于 agent——而工程经理的新核心工作是设计「最大化 AI 杠杆」的团队结构。",
+    "image": "covers/2026-10-03-ways-of-working-for-ai-native-engineering-teams.svg",
+    "cardImage": "covers/2026-10-03-ways-of-working-for-ai-native-engineering-teams.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-03-ways-of-working-for-ai-native-engineering-teams.md"
+  },
+  {
+    "slug": "2026-10-03-whats-worth-remembering",
+    "title": "What's Worth Remembering? The Hardest Decision a Memory Makes on Every Message",
+    "author": "Omer Onder",
+    "date": "2026-10-03T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@omerfonder/whats-worth-remembering-the-hardest-decision-a-memory-makes-on-every-message-1f1e948439e0",
+    "status": "processed",
+    "excerpt": "存储不等于记忆——区分二者的第一道行为，是「这条消息到底该不该被记住」。门开得太宽，记忆被「lgtm」和「ok pushing now」淹没；关得太紧，你丢掉了例会上六个月后会被需要的那句话。检索、冲突检测、整合的质量全部继承这道门——它是记忆的免疫系统。",
+    "image": "covers/2026-10-03-whats-worth-remembering.svg",
+    "cardImage": "covers/2026-10-03-whats-worth-remembering.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-03-whats-worth-remembering.md"
+  },
+  {
     "slug": "2026-10-02-economics-of-attention-in-the-age-of-ai",
     "title": "The economics of attention in the age of AI",
     "author": "Aurélie Radom",
