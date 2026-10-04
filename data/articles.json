@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-04-i-gave-claude-my-inbox",
+    "title": "I Gave Claude My Inbox. Seven Things Nobody Warned Me About.",
+    "author": "Josh Dubowsky",
+    "date": "2026-10-04T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@JoshDubowsky/i-gave-claude-my-inbox-seven-things-nobody-warned-me-about-39bb60bc2ee8",
+    "status": "processed",
+    "excerpt": "一个非程序员把 Claude 接进 1412 封未读的邮箱，九秒拿到六条待办——其中一条把他十一天前礼貌回绝的邀约，摘要成了「已确认」。三件已文档化的攻击（读一切才能答任何事、隐藏指令的邮件、不用打开就能伤人）、两件每次发生的偏差（限定词死于摘要、检索数据随聊天而非随邮件存储）、两件关于他自己的（别人的机密躺在他的邮箱里、他不再读自己的邮件）——以及一句诚实的结尾：日历关了，邮件留着，理由说不出口。",
+    "image": "covers/2026-10-04-i-gave-claude-my-inbox.svg",
+    "cardImage": "covers/2026-10-04-i-gave-claude-my-inbox.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-04-i-gave-claude-my-inbox.md"
+  },
+  {
     "slug": "2026-10-03-ways-of-working-for-ai-native-engineering-teams",
     "title": "Ways of Working for AI-Native Engineering Teams, Part 1: When the Handoff Chain Collapses",
     "author": "Timothy Akampa",
