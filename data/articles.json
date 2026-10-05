@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-05-agentic-memory-in-production",
+    "title": "Agentic Memory in Production: Deploying SimpleMem in Real, Production Systems",
+    "author": "Justin N",
+    "date": "2026-10-05T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@jjn62/productionizing-simplemem-0c20f79256e1",
+    "status": "processed",
+    "excerpt": "把开源记忆系统 SimpleMem 改造上生产的完整实录：抽取时强制「无损转述」（禁代词、禁相对时间）、混合检索用 RRF 融合三路排名而不是加权原始分、用 LLM 判定记忆间是重复/冲突/独立并让新记忆「取代」旧记忆，再加上 SQLite 换 pgvector、层级命名空间分区和 OTel+Langfuse 全链路观测——记忆池保持新鲜且不无限生长。",
+    "image": "covers/2026-10-05-agentic-memory-in-production.svg",
+    "cardImage": "covers/2026-10-05-agentic-memory-in-production.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-05-agentic-memory-in-production.md"
+  },
+  {
     "slug": "2026-10-04-i-gave-claude-my-inbox",
     "title": "I Gave Claude My Inbox. Seven Things Nobody Warned Me About.",
     "author": "Josh Dubowsky",
