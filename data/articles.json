@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-06-most-expensive-part-of-redis",
+    "title": "Nobody Warns Backend Engineers About the Most Expensive Part of Redis. It Isn't Memory.",
+    "author": "The JVM Engineer",
+    "date": "2026-10-06T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/engineering-playbook/nobody-warns-backend-engineers-about-the-most-expensive-part-of-redis-it-isnt-memory-33747d030a79",
+    "status": "processed",
+    "excerpt": "加上 Redis 的那一刻系统确实变快了——但它同时给了你第二份需要维护的「现实」。真正的账单不是内存：是「此刻该相信哪一份数据」的一致性问题，是缓存失效瞬间 8000 QPS 直接砸向只按 400 QPS 设计容量的数据库。作者现在加缓存前只问一个问题：缓存为空时，系统长什么样？",
+    "image": "covers/2026-10-06-most-expensive-part-of-redis.svg",
+    "cardImage": "covers/2026-10-06-most-expensive-part-of-redis.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-06-most-expensive-part-of-redis.md"
+  },
+  {
+    "slug": "2026-10-06-10-years-of-backend-experience",
+    "title": "You Can Have 10 Years of Backend Experience and Still Be Bad at System Design",
+    "author": "Devrim",
+    "date": "2026-10-06T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/engineering-playbook/you-can-have-10-years-of-backend-experience-and-still-be-bad-at-system-design-0db565032d4c",
+    "status": "processed",
+    "excerpt": "年限只告诉我你工作了多久，几乎不告诉我你被允许做过哪些决定。一个后端工程师可以在别人设计好的架构内极高产地度过十年——精通 Kafka 却从没练过「Kafka 属不属于这个系统」。架构经验主要是决策经验：见过队列变难运维、缓存制造一致性问题、服务拆错边界之后，架构才不再是一堆模式，而是一张价格表。",
+    "image": "covers/2026-10-06-10-years-of-backend-experience.svg",
+    "cardImage": "covers/2026-10-06-10-years-of-backend-experience.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-06-10-years-of-backend-experience.md"
+  },
+  {
     "slug": "2026-10-05-agentic-memory-in-production",
     "title": "Agentic Memory in Production: Deploying SimpleMem in Real, Production Systems",
     "author": "Justin N",
