@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-07-lock-free-spsc-queue-in-c",
+    "title": "Implementing a Lock-Free SPSC Queue in C++",
+    "author": "Shah Rahman",
+    "date": "2026-10-07T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@samiur1998/implementing-a-lock-free-spsc-queue-in-c-b41a5d0a0a2d",
+    "status": "processed",
+    "excerpt": "从 Leslie Lamport 1979 年的证明出发，用 C++ atomics 手写无锁单生产者单消费者队列的完整教程：环形缓冲 + 双游标的单线程骨架，relaxed/acquire/release 三种内存序各司其职，最后加上缓存游标与缓存行对齐两刀优化——每个成员独占一条 cache line，消除 false sharing。",
+    "image": "covers/2026-10-07-lock-free-spsc-queue-in-c.svg",
+    "cardImage": "covers/2026-10-07-lock-free-spsc-queue-in-c.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-07-lock-free-spsc-queue-in-c.md"
+  },
+  {
+    "slug": "2026-10-07-medium-state-of-writing-2026",
+    "title": "Medium's State of Writing Report 2026: A private writing revival",
+    "author": "Scott Lamb",
+    "date": "2026-10-07T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/blog/mediums-state-of-writing-report-2026-a-private-writing-revival-107016e9e254",
+    "status": "processed",
+    "excerpt": "Medium 官方 2026 写作状况报告：71% 写作者近三个月在写作中用过 AI，但 60% 不信任自己用 AI 写出的东西、69% 不信任别人用 AI 写的；三分之一写作者相信读到的大多是 AI 文；Medium 活跃写作者同比 +35%、去年产生 440 万份未发布草稿——写作的主流形态是私密的，动机是自我表达（56%）与自我关怀（41%），赚钱只占 12%。",
+    "image": "covers/2026-10-07-medium-state-of-writing-2026.svg",
+    "cardImage": "covers/2026-10-07-medium-state-of-writing-2026.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-07-medium-state-of-writing-2026.md"
+  },
+  {
     "slug": "2026-10-06-most-expensive-part-of-redis",
     "title": "Nobody Warns Backend Engineers About the Most Expensive Part of Redis. It Isn't Memory.",
     "author": "The JVM Engineer",
