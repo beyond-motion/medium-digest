@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-08-introduction-to-causal-ml-part-1",
+    "title": "An Introduction to Causal ML — A Practitioner's Approach, Part 1",
+    "author": "Niranjan Rao",
+    "date": "2026-10-08T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@niranjan-rao/an-introduction-to-causal-ml-a-practitioners-approach-part-1-fdd91c46ff8a",
+    "status": "processed",
+    "excerpt": "从「巧克力消费量与诺贝尔奖数相关」的经典陷阱出发，讲清因果机器学习要回答的是「如果我多做一小时题，成绩会涨多少」这类反事实问题：用 Uber 开源的 causalml 库在合成 RCT 数据上亲手实现 S/T/X 三种 meta-learner，再用营销四象限（尤其别惊醒「睡觉的狗」）和 Gain 曲线回答「优惠券到底该发给谁」。",
+    "image": "covers/2026-10-08-introduction-to-causal-ml-part-1.svg",
+    "cardImage": "covers/2026-10-08-introduction-to-causal-ml-part-1.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-08-introduction-to-causal-ml-part-1.md"
+  },
+  {
+    "slug": "2026-10-08-generating-embeddings-self-supervised-speech",
+    "title": "Generating embeddings from a self-supervised speech model",
+    "author": "Noah Macey (UC Berkeley D-Lab)",
+    "date": "2026-10-08T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@dlab-berkeley/generating-embeddings-from-a-self-supervised-speech-model-025b6c93f77d",
+    "status": "processed",
+    "excerpt": "UC Berkeley D-Lab 的完整教程：用 Hugging Face transformers 加载预训练 WavLM，把 audioMNIST 的 500 条录音变成 768 维语音嵌入，statpooling 压成 1536 维定长向量后 PCA 降维——数字 0/3/4 的聚类因共享「r」音互相粘连，而同样的流程在传统 MFCC 特征上聚类涣散，自监督语音模型的价值一目了然。",
+    "image": "covers/2026-10-08-generating-embeddings-self-supervised-speech.svg",
+    "cardImage": "covers/2026-10-08-generating-embeddings-self-supervised-speech.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-08-generating-embeddings-self-supervised-speech.md"
+  },
+  {
     "slug": "2026-10-07-lock-free-spsc-queue-in-c",
     "title": "Implementing a Lock-Free SPSC Queue in C++",
     "author": "Shah Rahman",
