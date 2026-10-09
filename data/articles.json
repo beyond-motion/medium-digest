@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-09-if-ai-is-going-to-take-my-job-why-am-i-working-harder",
+    "title": "If AI Is Going to Take My Job, Why Am I Working Harder Than Ever?",
+    "author": "Old Developer",
+    "date": "2026-10-09T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@iyakin.yz/if-ai-is-going-to-take-my-job-why-am-i-working-harder-than-ever-50b79acf77a6",
+    "status": "processed",
+    "excerpt": "一个越用 AI 越忙的开发者自白，骨架是 Jevons 悖论：实现成本暴跌后我们不再否决想法，被自动化的只是执行、责任仍在人这里，瓶颈从打字速度移到了人类注意力——HBR 2026 年 2 月研究（AI 没减少工作而是强化了它）与 METR 2025 实验（资深开发者用 AI 反而慢 19%）都指向同一件事：产能可以棘轮式抬高基线，却不会自动还你自由。",
+    "image": "covers/2026-10-09-if-ai-is-going-to-take-my-job-why-am-i-working-harder.svg",
+    "cardImage": "covers/2026-10-09-if-ai-is-going-to-take-my-job-why-am-i-working-harder.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-09-if-ai-is-going-to-take-my-job-why-am-i-working-harder.md"
+  },
+  {
+    "slug": "2026-10-09-same-cache-10x-faster-start-bigger-bill-on-claude",
+    "title": "Same cache: 10x faster start on my laptop, bigger bill on Claude",
+    "author": "Shivang Bhatnagar",
+    "date": "2026-10-09T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@shivangb237/same-cache-10x-faster-start-on-my-laptop-bigger-bill-on-claude-f33696c07fb7",
+    "status": "processed",
+    "excerpt": "一套 RAG 网关跑两台机器的实测：同一套缓存（精确匹配/语义/检索/prompt 前缀四种）在 M4 MacBook 的本地 4B 模型上把首 token 时间从 3-4 秒压到 0.3 秒（10 倍），在 Claude Sonnet 5.5 上却让账单涨 18-25%——直到用检索缓存让 prompt 前缀刻意重复才反赚 23%。结论一句话：本地缺时间，API 缺钱，同一个缓存解的是两个不同的问题。",
+    "image": "covers/2026-10-09-same-cache-10x-faster-start-bigger-bill-on-claude.svg",
+    "cardImage": "covers/2026-10-09-same-cache-10x-faster-start-bigger-bill-on-claude.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-09-same-cache-10x-faster-start-bigger-bill-on-claude.md"
+  },
+  {
     "slug": "2026-10-08-introduction-to-causal-ml-part-1",
     "title": "An Introduction to Causal ML — A Practitioner's Approach, Part 1",
     "author": "Niranjan Rao",

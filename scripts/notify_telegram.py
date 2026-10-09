@@ -10,10 +10,10 @@
 [telegram skipped] 并正常退出（通知失败不阻塞主流程）。
 """
 import argparse
+import http.client
 import pathlib
 import sys
 import urllib.parse
-import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ICON = {"success": "✅", "no_update": "📭", "failure": "❌"}
@@ -63,13 +63,18 @@ def main() -> int:
         lines.append(site)
 
     text = "\n".join(lines)
-    api = f"https://api.telegram.org/bot{token}/sendMessage"
-    data = urllib.parse.urlencode({"chat_id": chat_id, "text": text}).encode()
+    # token 只 quote 进路径；host 是字面常量，结构上杜绝 SSRF（env 值无法改写目标主机）
+    path = "/bot" + urllib.parse.quote(token, safe="") + "/sendMessage"
+    body = urllib.parse.urlencode({"chat_id": chat_id, "text": text}).encode()
+    headers = {"Content-Type": "application/x-www-form-urlencoded"}
     try:
-        with urllib.request.urlopen(api, data=data, timeout=15) as resp:
-            ok = json_ok(resp.read())
-            print(f"[telegram {'sent' if ok else 'unexpected response'}]")
-            return 0
+        conn = http.client.HTTPSConnection("api.telegram.org", timeout=15)
+        conn.request("POST", path, body=body, headers=headers)
+        resp = conn.getresponse()
+        ok = json_ok(resp.read())
+        conn.close()
+        print(f"[telegram {'sent' if ok else 'unexpected response'}]")
+        return 0
     except Exception as e:
         print(f"[telegram failed] {e}")
         return 1
