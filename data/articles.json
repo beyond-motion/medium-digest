@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-10-ai-coding-agent-autogen-docker",
+    "title": "From Code Generation to Controlled Execution: Building an AI Coding Agent with AutoGen and Docker",
+    "author": "Mustafa Necati Özdoğan",
+    "date": "2026-10-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@mustafanecatiozdogan/from-code-generation-to-controlled-execution-building-an-ai-coding-agent-with-autogen-and-docker-799d53e3e011",
+    "status": "processed",
+    "excerpt": "用 Microsoft AutoGen 搭一个人在回路的多智能体工作流：AssistantAgent 生成 Python 代码、approval_func 强制每次执行前人工批准、DockerCommandLineCodeExecutor 容器内隔离运行、执行反馈驱动迭代纠错——并用三种终止条件（成功/用户拒绝/最多 3 次失败 + MAX_TURNS）堵死无限纠错循环。附 AutoGen 0.7.5 的一个实现取舍与五条工程原则。",
+    "image": "covers/2026-10-10-ai-coding-agent-autogen-docker.svg",
+    "cardImage": "covers/2026-10-10-ai-coding-agent-autogen-docker.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-10-ai-coding-agent-autogen-docker.md"
+  },
+  {
+    "slug": "2026-10-10-i-gave-my-music-library-an-ai-brain",
+    "title": "I Gave My Music Library an AI Brain 🎵",
+    "author": "Kanishka Medankara",
+    "date": "2026-10-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@110kqnishkamedankara110/i-gave-my-music-library-an-ai-brain-2b9cc594d78f",
+    "status": "processed",
+    "excerpt": "3000 首歌的音乐库 + Python/Streamlit/Pydantic AI/SQLite/Ollama：启动时把曲库索引进 SQLite，模型只负责理解「放 The Chainsmokers 的 Who Do You Love」并选工具，数据库负责找歌、应用负责播放。最有趣的发现是换模型即换行为——同一个智能体，OpenRouter 托管模型选歌全对，本地 gemma4:e4b 会选错歌：模型是系统行为的一部分，不是即插即忘的零件。",
+    "image": "covers/2026-10-10-i-gave-my-music-library-an-ai-brain.svg",
+    "cardImage": "covers/2026-10-10-i-gave-my-music-library-an-ai-brain.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-10-i-gave-my-music-library-an-ai-brain.md"
+  },
+  {
     "slug": "2026-10-09-if-ai-is-going-to-take-my-job-why-am-i-working-harder",
     "title": "If AI Is Going to Take My Job, Why Am I Working Harder Than Ever?",
     "author": "Old Developer",

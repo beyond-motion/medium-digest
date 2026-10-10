@@ -1,14 +1,14 @@
 {
   "schemaVersion": "mimosa-hook-status/v1",
-  "recordedAt": "2026-10-09T15:19:33.674Z",
+  "recordedAt": "2026-10-09T15:22:03.933Z",
   "sessionId": "sess_c16ccc80-fcb8-45d4-89c4-dc29153e4b1f",
   "event": "PostToolUse",
   "toolName": "Edit",
-  "file": "scripts/notify_telegram.py",
+  "file": "/Users/wanglingwei/.zcode/cli/memories/projects/medium-ea29c51a95747502/memory/MEMORY.md",
   "outcome": "clear",
   "coverage": "complete",
   "findingCount": 0,
-  "durationMs": 4,
+  "durationMs": 2,
   "hostState": "hook_complete",
   "reportHint": ".mimosa/reports/"
 }
