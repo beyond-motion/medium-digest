@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-11-build-your-own-decision-model-like-jev-ai",
+    "title": "Build Your Own Decision Model like Jev AI",
+    "author": "Mehul Gupta",
+    "date": "2026-10-11T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/data-science-in-your-pocket/build-your-own-decision-model-like-jev-ai-3126b1e0e1b1",
+    "status": "processed",
+    "excerpt": "别让 LLM 写段落，让它做选择：把 Qwen3-1.7B 的输出限制在 A-E 五个 token 上，对这五个 logit 做 softmax 直接得到答案概率分布——「天空什么颜色」一题 B 选项 99.88%；CommonsenseQA 留出集上 59.38% 准确率、微调后 62.41%。但最大的坑是 98.55% 的自信只换来 70.09% 的正确率，用温度缩放（T=3.7973）校准后才对齐。附完整代码与 Build Your Own Jev 仓库。",
+    "image": "covers/2026-10-11-build-your-own-decision-model-like-jev-ai.svg",
+    "cardImage": "covers/2026-10-11-build-your-own-decision-model-like-jev-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-11-build-your-own-decision-model-like-jev-ai.md"
+  },
+  {
     "slug": "2026-10-10-ai-coding-agent-autogen-docker",
     "title": "From Code Generation to Controlled Execution: Building an AI Coding Agent with AutoGen and Docker",
     "author": "Mustafa Necati Özdoğan",
