@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-13-i-cant-draw-full-mascot-world-anyway",
+    "title": "I Can't Draw. Here's How I Added a Full Mascot World to My App Anyway.",
+    "author": "Frederik Roessell",
+    "date": "2026-10-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@froessell/i-cant-draw-here-s-how-i-added-a-full-mascot-world-to-my-app-anyway-ae7c82630a83",
+    "status": "processed",
+    "excerpt": "一个不会画画的产品设计师用 Nano Banana 给儿童阅读应用 Bogormen 造了一整个吉祥物世界：狐狸读书、狐狸和企鹅玩卡坦岛、每个 App Store 截图都有专属场景——职业生涯第一次让应用长成想象中的样子。最诚实的部分是失手记录：生成越多，手工感褪得越快；他给出的解法是尽早锁定英雄资产、把最佳早期生成强制作为后续每一次 prompt 的视觉锚点。",
+    "image": "covers/2026-10-13-i-cant-draw-full-mascot-world-anyway.svg",
+    "cardImage": "covers/2026-10-13-i-cant-draw-full-mascot-world-anyway.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-13-i-cant-draw-full-mascot-world-anyway.md"
+  },
+  {
+    "slug": "2026-10-13-why-is-it-so-hard-to-cool-a-computer-in-space",
+    "title": "Space Is −270°C. So Why Is It So Hard to Cool a Computer There?",
+    "author": "Ryan Hua",
+    "date": "2026-10-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@ryan.hua28/space-is-270-c-so-why-is-it-so-hard-to-cool-a-computer-there-703ff079dbf3",
+    "status": "processed",
+    "excerpt": "谷歌 Project Suncatcher 原型带着四颗 TPU 上天，却每次只能跑 15 分钟——被热量卡死。这篇 15 分钟的定量长文算清了太空散热的账：真空里只剩辐射一条出路，300K 散热面每平米只能排 413 瓦；从芯片结温到散热器要爬 51.5K 的温度阶梯，每丢 1K 多要 1.3% 面积；1 GW 算力需要 1.4 平方公里散热器、约 14,000 个空间站的排热量。结论：成败在「每千瓦多少公斤」，散热器比芯片更配当主角。",
+    "image": "covers/2026-10-13-why-is-it-so-hard-to-cool-a-computer-in-space.svg",
+    "cardImage": "covers/2026-10-13-why-is-it-so-hard-to-cool-a-computer-in-space.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-13-why-is-it-so-hard-to-cool-a-computer-in-space.md"
+  },
+  {
     "slug": "2026-10-11-build-your-own-decision-model-like-jev-ai",
     "title": "Build Your Own Decision Model like Jev AI",
     "author": "Mehul Gupta",
