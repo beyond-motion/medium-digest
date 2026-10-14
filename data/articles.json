@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-14-smaller-faster-cheaper-small-language-models",
+    "title": "Smaller, Faster, Cheaper: A Practical Guide to Small Language Models",
+    "author": "Tabish Alam",
+    "date": "2026-10-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@tabsalam120/smaller-faster-cheaper-a-practical-guide-to-small-language-models-c4c21e9d20bb",
+    "status": "processed",
+    "excerpt": "小模型不是预算备选项：显存估算只需一个乘法（参数量 × 每参数字节数，7B 模型 32 位要 28 GB、4 位只要 3.5 GB）；变小有三条路（直接训小的/蒸馏/量化）；一个 512×512 矩阵的亲手实验显示 8-bit 取整几乎无损（输出误差 1.09%）、4-bit 误差跳到 19.33%、分组 scale 能砍掉四成以上误差。结论：窄任务用小模型扛量，疑难升级大模型，先在自己的数据上测再说。",
+    "image": "covers/2026-10-14-smaller-faster-cheaper-small-language-models.svg",
+    "cardImage": "covers/2026-10-14-smaller-faster-cheaper-small-language-models.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-14-smaller-faster-cheaper-small-language-models.md"
+  },
+  {
     "slug": "2026-10-13-i-cant-draw-full-mascot-world-anyway",
     "title": "I Can't Draw. Here's How I Added a Full Mascot World to My App Anyway.",
     "author": "Frederik Roessell",
