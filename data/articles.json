@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-17-context-engineering-for-ai-agents",
+    "title": "Deep dive into context engineering for AI agents",
+    "author": "clara",
+    "date": "2026-10-17T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/code-like-a-girl/deep-dive-into-context-engineering-for-ai-agents-584bf3e578df",
+    "status": "processed",
+    "excerpt": "多智能体系统一线经验蒸馏：真实失败大多不是模型能力问题，而是上下文被构造、传递和维护的方式问题——上下文工程就是找到「信号最高的最小 token 集」，四招（offload/retrieve/isolate/reduce）对抗 context rot；「模型忘了」其实是 harness 没持久化、是过载的动作空间；多智能体的正解不是共享记忆而是通过定义良好的接口做状态转移，否则既污染注意力又白付 KV-cache 罚金。",
+    "image": "covers/2026-10-17-context-engineering-for-ai-agents.svg",
+    "cardImage": "covers/2026-10-17-context-engineering-for-ai-agents.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-17-context-engineering-for-ai-agents.md"
+  },
+  {
     "slug": "2026-10-14-smaller-faster-cheaper-small-language-models",
     "title": "Smaller, Faster, Cheaper: A Practical Guide to Small Language Models",
     "author": "Tabish Alam",
