@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-24-scaling-ai-native-analytics-patterns-at-meta",
+    "title": "Scaling AI-Native Analytics Patterns at Meta",
+    "author": "Analytics at Meta",
+    "date": "2026-10-24T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@AnalyticsAtMeta/scaling-ai-native-analytics-patterns-at-meta-b29162cb46bf",
+    "status": "processed",
+    "excerpt": "Meta 把高频度量原语固化成参数化管道模式库，让 AI 智能体以同等待遇生产与消费数据资产——SQL 生成改为确定性 CLI 调用，看板自己长出来。核心教训：你无法自动化一团混乱。",
+    "image": "covers/2026-10-24-scaling-ai-native-analytics-patterns-at-meta.svg",
+    "cardImage": "covers/2026-10-24-scaling-ai-native-analytics-patterns-at-meta.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-24-scaling-ai-native-analytics-patterns-at-meta.md"
+  },
+  {
     "slug": "2026-10-17-context-engineering-for-ai-agents",
     "title": "Deep dive into context engineering for AI agents",
     "author": "clara",
