@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-26-beyond-api-compatibility-blast-radius",
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+    "author": "Netflix Technology Blog",
+    "date": "2026-10-26T04:00:00.000Z",
+    "sourceUrl": "https://medium.com/netflix-techblog/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
+    "status": "processed",
+    "excerpt": "Netflix 用共享语义索引 Quasar 把「API 改了」变成「谁还在用、用了哪些版本、在哪些文件」——把破坏性变更的影响半径在合并前量出来。四条教训：兼容性≠影响面、证据必须可检验、智能体不该把「没查到引用」翻译成「安全可删」。",
+    "image": "covers/2026-10-26-beyond-api-compatibility-blast-radius.svg",
+    "cardImage": "covers/2026-10-26-beyond-api-compatibility-blast-radius.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-26-beyond-api-compatibility-blast-radius.md"
+  },
+  {
     "slug": "2026-10-24-scaling-ai-native-analytics-patterns-at-meta",
     "title": "Scaling AI-Native Analytics Patterns at Meta",
     "author": "Analytics at Meta",
