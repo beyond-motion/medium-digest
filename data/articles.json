@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-27-sophi-harness-flight-recorder",
+    "title": "SoPhi Harness — A Black Box That Can't Crash the Plane: Teaching an Agent to Learn Without Touching Its Controls",
+    "author": "Shukri Shukriev",
+    "date": "2026-10-27T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/towards-artificial-intelligence/sophi-harness-a-black-box-that-cant-crash-the-plane-teaching-an-agent-to-learn-without-touching-2c4a771e6b9e",
+    "status": "processed",
+    "excerpt": "Kotlin 智能体框架 SoPhi 给自己装航空黑匣子：只记录不回放、观察者永不反哺控制流、记录器故障也不能弄垮一次 turn——以及三个真实教训：总线信号会撒谎、并发计数器会丢增量、被拔掉的黑匣子和安静航程长得一模一样。",
+    "image": "covers/2026-10-27-sophi-harness-flight-recorder.svg",
+    "cardImage": "covers/2026-10-27-sophi-harness-flight-recorder.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-27-sophi-harness-flight-recorder.md"
+  },
+  {
+    "slug": "2026-10-27-why-proprietary-ai-leads-over-open-models",
+    "title": "Why Proprietary AI Leads Over Open AI Models",
+    "author": "MIT IDE",
+    "date": "2026-10-27T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/mit-initiative-on-the-digital-economy/why-proprietary-ai-leads-over-open-ai-models-177143ae5bdc",
+    "status": "processed",
+    "excerpt": "开放模型以六分之一的价格做到闭源九成的性能，企业支出却反向涌向闭源——MIT IDE 与 Decagon CEO 给出的解释：你处在 AI 采用曲线的哪一段，决定了该买什么模型。实验期买最强大脑，规模化后「小模型+深度微调」只剩开源权重一条路。",
+    "image": "covers/2026-10-27-why-proprietary-ai-leads-over-open-models.svg",
+    "cardImage": "covers/2026-10-27-why-proprietary-ai-leads-over-open-models.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-27-why-proprietary-ai-leads-over-open-models.md"
+  },
+  {
     "slug": "2026-10-26-beyond-api-compatibility-blast-radius",
     "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
     "author": "Netflix Technology Blog",
