@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-28-making-failure-diagnosis-reliable-pensive-ai",
+    "title": "Making Failure Diagnosis Reliable with Pensive AI",
+    "author": "Netflix Technology Blog",
+    "date": "2026-10-28T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/netflix-techblog/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015",
+    "status": "processed",
+    "excerpt": "Netflix 峰值日约 10 万个数据工作负载失败。Pensive AI 用「行号定位」让模型只返回两个整数、用 90 秒死线倒逼并行抽取、用旧规则当免费标注、用四个信号与 CI 门禁守住质量——可靠性不来自模型，来自模型周围的那一圈系统。",
+    "image": "covers/2026-10-28-making-failure-diagnosis-reliable-pensive-ai.svg",
+    "cardImage": "covers/2026-10-28-making-failure-diagnosis-reliable-pensive-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-28-making-failure-diagnosis-reliable-pensive-ai.md"
+  },
+  {
+    "slug": "2026-10-28-what-are-we-protecting-ai-writing",
+    "title": "What are we protecting? An anthropological analysis of the impact of AI on writing",
+    "author": "Camille M Vasquez",
+    "date": "2026-10-28T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@camillemvasquez/what-are-we-protecting-an-anthropological-analysis-of-the-impact-of-ai-on-writing-11d32c6e83fe",
+    "status": "processed",
+    "excerpt": "哈佛人类学家用权力分析拆 Medium 的 AI 政策：平台真正控制的是注意力，写作者不再稀缺的是文字与知识；把写作拆成「形式/过程/意图」三件套后发现——Medium 政策保护的是形式，放行的是过程与意图，而读者真正在意的恰恰相反。",
+    "image": "covers/2026-10-28-what-are-we-protecting-ai-writing.svg",
+    "cardImage": "covers/2026-10-28-what-are-we-protecting-ai-writing.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-28-what-are-we-protecting-ai-writing.md"
+  },
+  {
     "slug": "2026-10-27-sophi-harness-flight-recorder",
     "title": "SoPhi Harness — A Black Box That Can't Crash the Plane: Teaching an Agent to Learn Without Touching Its Controls",
     "author": "Shukri Shukriev",
