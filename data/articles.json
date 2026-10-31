@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-10-31-anthropic-compute-revenue-growth",
+    "title": "Anthropic Can Pay for the Compute. Can It Fill It?",
+    "author": "Adriel Frederick",
+    "date": "2026-10-31T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@adriel.frederick/anthropic-can-pay-for-the-compute-can-it-fill-it-4c6a784ff990",
+    "status": "processed",
+    "excerpt": "Anthropic S-1 深度拆解：8000 亿美元算力承诺比头条看起来更稳健，真正的赌注是足够多的知识工作能否变成可以交给 Claude 的活。",
+    "image": "covers/2026-10-31-anthropic-compute-revenue-growth.svg",
+    "cardImage": "covers/2026-10-31-anthropic-compute-revenue-growth.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-31-anthropic-compute-revenue-growth.md"
+  },
+  {
+    "slug": "2026-10-31-postgresql-offset-deep-pagination",
+    "title": "Our Senior Engineer Added an Index. PostgreSQL Still Took 12 Seconds",
+    "author": "Production Systems | Prodrescue By Devrim",
+    "date": "2026-10-31T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@devrimkodlama/our-senior-engineer-added-an-index-postgresql-still-took-12-seconds-8107104544bf",
+    "status": "processed",
+    "excerpt": "四千万行表、索引工作完美、查询却要 12 秒——OFFSET 深分页的教科书级事故复盘，以及 keyset 分页改造的完整决策链。",
+    "image": "covers/2026-10-31-postgresql-offset-deep-pagination.svg",
+    "cardImage": "covers/2026-10-31-postgresql-offset-deep-pagination.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-31-postgresql-offset-deep-pagination.md"
+  },
+  {
+    "slug": "2026-10-31-195-countries-12-political-axes",
+    "title": "We Put 195 Countries on 12 Political Axes. Left and Right Weren't the Biggest Divide.",
+    "author": "My 12 Axes",
+    "date": "2026-10-31T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@my12axes/we-put-195-countries-on-12-political-axes-left-and-right-werent-the-biggest-divide-829e80cb8e0e",
+    "status": "processed",
+    "excerpt": "195 国 × 12 轴的 PCA 分析：第一主成分只解释 47% 方差，且指向民主—威权而非左右——经济立场与社会立场的相关性是 −0.01。",
+    "image": "covers/2026-10-31-195-countries-12-political-axes.svg",
+    "cardImage": "covers/2026-10-31-195-countries-12-political-axes.svg",
+    "hash": "",
+    "file": "content/articles/2026-10-31-195-countries-12-political-axes.md"
+  },
+  {
     "slug": "2026-10-29-the-things-of-the-world-hannah-arendt-homo-faber",
     "title": "The Things of the World: Hannah Arendt and homo faber",
     "author": "John Crutchfield（The Hannah Arendt Center）",
