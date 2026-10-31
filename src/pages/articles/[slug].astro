@@ -72,6 +72,10 @@ const extraImagesHtml = extraImages
 const rewriteHtml = `${enhanceImageTags(marked.parse(sections.rewrite, { async: false }) as string)}${extraImagesHtml}`;
 const sproutHtml = enhanceImageTags(marked.parse(sections.sprout, { async: false }) as string);
 const sourceUrl = parsed.data.source_url || parsed.data.sourceUrl || "";
+const SITE_ORIGIN = "https://beyond-motion.github.io";
+const canonicalUrl = `${SITE_ORIGIN}${import.meta.env.BASE_URL}articles/${parsed.data.slug}/`;
+const ogImageUrl = `${SITE_ORIGIN}${import.meta.env.BASE_URL}covers/${parsed.data.slug}.png`;
+const ogDescription = parsed.data.excerpt || parsed.data.title;
 const formatter = new Intl.DateTimeFormat("zh-CN", {
   year: "numeric",
   month: "long",
@@ -86,6 +90,18 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={parsed.data.excerpt || parsed.data.title} />
     <title>{parsed.data.title} | Medium 编辑精选 · 中文翻译与发芽</title>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={parsed.data.title} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    {parsed.data.date && <meta property="article:published_time" content={new Date(parsed.data.date).toISOString()} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={parsed.data.title} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
   </head>
   <body>
     <header class="topbar">

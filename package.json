@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "node -r ./scripts/localhost-resolver.cjs ./node_modules/astro/astro.js check && node -r ./scripts/localhost-resolver.cjs ./node_modules/astro/astro.js build",
+    "build": "node scripts/gen_og.mjs && node -r ./scripts/localhost-resolver.cjs ./node_modules/astro/astro.js check && node -r ./scripts/localhost-resolver.cjs ./node_modules/astro/astro.js build",
     "deploy": "node scripts/publish-site.mjs",
     "preview": "astro preview",
     "notify:telegram": "node scripts/notify-telegram.mjs",
@@ -20,6 +20,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^25.6.0",
     "wrangler": "^4.45.0"
   }
