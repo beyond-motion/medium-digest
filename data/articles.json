@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-11-01-claude-code-agents-md-fallback",
+    "title": "Claude Code Now Reads AGENTS.md — But Not the Way Most Teams Think",
+    "author": "EdibleByte",
+    "date": "2026-11-01T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/ai-architecture-and-engineering/claude-code-now-reads-agents-md-but-not-the-way-most-teams-think-25714f96b87b",
+    "status": "processed",
+    "excerpt": "Claude Code 原生支持 AGENTS.md 是回退而非平级格式：树上任何一处残留 CLAUDE.md 都会让整棵树的 AGENTS.md 被静默忽略——发布 6 天后的数据显示 57% 的仓库正踩中这条规则。",
+    "image": "covers/2026-11-01-claude-code-agents-md-fallback.svg",
+    "cardImage": "covers/2026-11-01-claude-code-agents-md-fallback.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-01-claude-code-agents-md-fallback.md"
+  },
+  {
     "slug": "2026-10-31-anthropic-compute-revenue-growth",
     "title": "Anthropic Can Pay for the Compute. Can It Fill It?",
     "author": "Adriel Frederick",
