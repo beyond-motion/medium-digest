@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-02-relational-skills-premium-ai",
+    "title": "Are Relational Skills Becoming More Valuable Than Technical Skills?",
+    "author": "Zach Mercurio, PhD",
+    "date": "2026-11-02T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@zachmercurio/are-relational-skills-becoming-more-valuable-than-technical-skills-062213d7709e",
+    "status": "processed",
+    "excerpt": "放射科医生没有被 AI 取代反而短缺——任务构成变了，社会技能的回报在上升而分析技能在下降；组织的问题不是缺意识，是缺把「软技能」当技术技能来训练的严谨体系。",
+    "image": "covers/2026-11-02-relational-skills-premium-ai.svg",
+    "cardImage": "covers/2026-11-02-relational-skills-premium-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-02-relational-skills-premium-ai.md"
+  },
+  {
+    "slug": "2026-11-02-use-case-built-to-be-finished-later",
+    "title": "Built to Be Finished Later",
+    "author": "Bruno Baketarić",
+    "date": "2026-11-02T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@__bbak/built-to-be-finished-later-08c11b72a934",
+    "status": "processed",
+    "excerpt": "决策 deck 上那行「用例」借用了方法的权威却没做过方法的工作——use case 与 user story 生来就是「为稍后完成而造」的占位符，退化的是工件加上完成它的过程；AI 让一行字的伪造成本降到几分钟。",
+    "image": "covers/2026-11-02-use-case-built-to-be-finished-later.svg",
+    "cardImage": "covers/2026-11-02-use-case-built-to-be-finished-later.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-02-use-case-built-to-be-finished-later.md"
+  },
+  {
     "slug": "2026-11-01-claude-code-agents-md-fallback",
     "title": "Claude Code Now Reads AGENTS.md — But Not the Way Most Teams Think",
     "author": "EdibleByte",
