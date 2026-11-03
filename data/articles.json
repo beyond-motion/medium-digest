@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-03-advanced-rag-layout-analysis",
+    "title": "Advanced RAG: Layout Analysis for Document Ingestion",
+    "author": "Okan Yenigün",
+    "date": "2026-11-03T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/python-in-plain-english/advanced-rag-layout-analysis-for-document-ingestion-5bbf8bf560de",
+    "status": "processed",
+    "excerpt": "文档不只是词序列——价格属于行、图注属于图旁、同高度的两段可能在不同的栏：用 Raggae SDK 的版式分析 worker 在摄入阶段保住结构，让文本按文本读、表格按表格读、图像按图像读。",
+    "image": "covers/2026-11-03-advanced-rag-layout-analysis.svg",
+    "cardImage": "covers/2026-11-03-advanced-rag-layout-analysis.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-03-advanced-rag-layout-analysis.md"
+  },
+  {
+    "slug": "2026-11-03-conways-law-for-ai-agents",
+    "title": "Conway's Law for AI Agents: Rethinking Microservices in the Age of AI",
+    "author": "Owen Zanzal",
+    "date": "2026-11-03T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/devops-ai/conways-law-for-ai-agents-rethinking-microservices-in-the-age-of-ai-6025497cb0c4",
+    "status": "processed",
+    "excerpt": "微服务的下一个理由与团队规模无关：agent 的「可用上下文」才是新约束——用隔离实现吸收不确定性，把第一版当学习耗材，验证过的行为变成可执行规格后再决定它去留。",
+    "image": "covers/2026-11-03-conways-law-for-ai-agents.svg",
+    "cardImage": "covers/2026-11-03-conways-law-for-ai-agents.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-03-conways-law-for-ai-agents.md"
+  },
+  {
+    "slug": "2026-11-03-transparent-ai-cost-controls",
+    "title": "How to design transparent AI cost controls",
+    "author": "Taras Bakusevych",
+    "date": "2026-11-03T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/user-experience-design-1/how-to-design-transparent-ai-cost-controls-a44fd52b9104",
+    "status": "processed",
+    "excerpt": "每次 AI 响应都有价格，用户却往往在限额命中时才发现——单位与时刻两个决策：谁承担不确定性、成本在何时可见；Claude/Cursor/Zapier/Clay/Replit 的实战案例拆解。",
+    "image": "covers/2026-11-03-transparent-ai-cost-controls.svg",
+    "cardImage": "covers/2026-11-03-transparent-ai-cost-controls.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-03-transparent-ai-cost-controls.md"
+  },
+  {
     "slug": "2026-11-02-relational-skills-premium-ai",
     "title": "Are Relational Skills Becoming More Valuable Than Technical Skills?",
     "author": "Zach Mercurio, PhD",
