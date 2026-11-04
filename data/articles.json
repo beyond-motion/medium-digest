@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-04-causal-inference-library-evidence",
+    "title": "Before You Trust a Causal Inference Library, Check Its Evidence",
+    "author": "Charles Hinshaw",
+    "date": "2026-11-04T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@charles.hinshaw/before-you-trust-a-causal-inference-library-check-its-evidence-b724d5f1eb01",
+    "status": "processed",
+    "excerpt": "信任一个因果推断库前查它的证据：支持矩阵、parity 四级标签、provenance 记录、校准证明（attestation）——开源库 Antecedent 展示科学软件如何把证据拴在代码上。",
+    "image": "covers/2026-11-04-causal-inference-library-evidence.svg",
+    "cardImage": "covers/2026-11-04-causal-inference-library-evidence.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-04-causal-inference-library-evidence.md"
+  },
+  {
+    "slug": "2026-11-04-gigawatt-gravel-ios-repricing",
+    "title": "Every gigawatt needs 100,000 truckloads — Why gravel lots next to data centers are repricing faster than the data centers.",
+    "author": "Rockson Advisory",
+    "date": "2026-11-04T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@rocksonadvisory/every-gigawatt-needs-100-000-truckloads-why-gravel-lots-next-to-data-centers-are-repricing-faster-7b5bcb5731a7",
+    "status": "processed",
+    "excerpt": "AI 建设最有趣的交易可能不是数据中心而是旁边的碎石堆场：每吉瓦 10 万卡车、IOS 租金两年涨 110%、电力取代税收优惠成为选址第一筛——约束从资本移向了泥土与电表。",
+    "image": "covers/2026-11-04-gigawatt-gravel-ios-repricing.svg",
+    "cardImage": "covers/2026-11-04-gigawatt-gravel-ios-repricing.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-04-gigawatt-gravel-ios-repricing.md"
+  },
+  {
+    "slug": "2026-11-04-end-of-language-model-multimodal",
+    "title": "The End of the Language Model: The Day AI Learned to See",
+    "author": "Cordero Core",
+    "date": "2026-11-04T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@cdcore/the-end-of-the-language-model-the-day-ai-learned-to-see-0dff60f866ae",
+    "status": "processed",
+    "excerpt": "Jev 作者的 AI 时间线系列第 21 集：从把报错截图拖进聊天框讲起——CLIP 教图文共享一张地图、ViT 把图片切成 16×16 的「词」、LLaVA 用投影把它们接上语言模型。",
+    "image": "covers/2026-11-04-end-of-language-model-multimodal.svg",
+    "cardImage": "covers/2026-11-04-end-of-language-model-multimodal.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-04-end-of-language-model-multimodal.md"
+  },
+  {
     "slug": "2026-11-03-advanced-rag-layout-analysis",
     "title": "Advanced RAG: Layout Analysis for Document Ingestion",
     "author": "Okan Yenigün",
