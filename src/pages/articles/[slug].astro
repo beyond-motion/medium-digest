@@ -72,7 +72,7 @@ const extraImagesHtml = extraImages
 const rewriteHtml = `${enhanceImageTags(marked.parse(sections.rewrite, { async: false }) as string)}${extraImagesHtml}`;
 const sproutHtml = enhanceImageTags(marked.parse(sections.sprout, { async: false }) as string);
 const sourceUrl = parsed.data.source_url || parsed.data.sourceUrl || "";
-const SITE_ORIGIN = "https://beyond-motion.github.io";
+const SITE_ORIGIN = (Astro.site ?? new URL("https://medium.beyondmotion.net/")).toString().replace(/\/$/, "");
 const canonicalUrl = `${SITE_ORIGIN}${import.meta.env.BASE_URL}articles/${parsed.data.slug}/`;
 const ogImageUrl = `${SITE_ORIGIN}${import.meta.env.BASE_URL}covers/${parsed.data.slug}.png`;
 const ogDescription = parsed.data.excerpt || parsed.data.title;
@@ -106,12 +106,12 @@ const formatter = new Intl.DateTimeFormat("zh-CN", {
   <body>
     <header class="topbar">
       <div class="shell topbar-inner">
-        <a class="brand" href="/medium-digest/">
+        <a class="brand" href="/">
           <span class="brand-mark">M</span>
           <span>Medium 编辑精选 · 中文翻译与发芽</span>
         </a>
         <nav class="nav" aria-label="Primary">
-          <a href="/medium-digest/">归档</a>
+          <a href="/">归档</a>
           {sourceUrl && <a href={sourceUrl} rel="noreferrer">原文</a>}
         </nav>
       </div>

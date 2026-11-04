@@ -78,7 +78,7 @@ def main() -> int:
         lines.append(f"阶段：{args.stage or 'unknown'}")
         if args.error:
             lines.append(f"错误：{args.error[:300]}")
-    site = env.get("SITE_URL", "https://beyond-motion.github.io/medium-digest/")
+    site = env.get("SITE_URL", "https://medium.beyondmotion.net/")
     if args.url:
         lines.append(args.url)
     else:
