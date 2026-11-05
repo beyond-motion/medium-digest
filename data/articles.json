@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-05-vibe-coding-is-over-agentic-engineering",
+    "title": "Vibe Coding Is Over. Here's What Replaced It",
+    "author": "Ashwini T",
+    "date": "2026-11-05T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@tripathiashwin2004/vibe-coding-is-over-heres-what-replaced-it-1314ee357262",
+    "status": "processed",
+    "excerpt": "Karpathy 亲手给 vibe coding 站台换名：agentic engineering——传统工程「写行为」，agentic 工程「塑造行为」；五个阶段的谱系与两关键技能 orchestrating + verifying。",
+    "image": "covers/2026-11-05-vibe-coding-is-over-agentic-engineering.svg",
+    "cardImage": "covers/2026-11-05-vibe-coding-is-over-agentic-engineering.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-05-vibe-coding-is-over-agentic-engineering.md"
+  },
+  {
+    "slug": "2026-11-05-developers-arent-slow-organization-is",
+    "title": "Your Developers Aren't Slow. Your Organization Is",
+    "author": "Jekaterina Jegoscenko",
+    "date": "2026-11-05T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@jekaterina.jegoscenko/your-developers-arent-slow-your-organization-is-7a4b225af271",
+    "status": "processed",
+    "excerpt": "2017 年「最慢团队」的翻案复盘：Cargo Cult Agile、五问法追到组织层、经理亲自接管 Product Owner 吸收冲突——以及 2026 年 AI 视角的警告：不改善决策就自动化执行=以更高速度生产错的东西。",
+    "image": "covers/2026-11-05-developers-arent-slow-organization-is.svg",
+    "cardImage": "covers/2026-11-05-developers-arent-slow-organization-is.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-05-developers-arent-slow-organization-is.md"
+  },
+  {
     "slug": "2026-11-04-causal-inference-library-evidence",
     "title": "Before You Trust a Causal Inference Library, Check Its Evidence",
     "author": "Charles Hinshaw",
