@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-06-model-scored-95-7-year-baseline",
+    "title": "My model scored 95.7%. Then a model that only knew the year nearly matched it.",
+    "author": "Manju Swaroop",
+    "date": "2026-11-06T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@manjuswaroop03/my-model-scored-95-7-then-a-model-that-only-knew-the-year-nearly-matched-it-cc8ef0c4a84b",
+    "status": "processed",
+    "excerpt": "45 年 WHO 数据上的 95.7% 分类器 vs 只知道年份和性别的决策树（F1 0.942 vs 0.956）——营养特征大多在替身时间；「当数据有强时间趋势，永远问：我的模型赢过一只钟吗？」",
+    "image": "covers/2026-11-06-model-scored-95-7-year-baseline.svg",
+    "cardImage": "covers/2026-11-06-model-scored-95-7-year-baseline.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-06-model-scored-95-7-year-baseline.md"
+  },
+  {
+    "slug": "2026-11-06-workflows-beat-agents-process-store",
+    "title": "Workflows Beat Agents. Here's What That Means for What Your Agent Should Do.",
+    "author": "Kompresser",
+    "date": "2026-11-06T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@kompresser1989/workflows-beat-agents-heres-what-that-means-for-what-your-agent-should-do-0ecc474a8e5d",
+    "status": "processed",
+    "excerpt": "「写下来」只是容易的一半：文档是建议不是能力——把流程编译成测过的工具、agent 负责编排工具负责执行，以及一个尖锐问题：这份工作是不是已经在售？",
+    "image": "covers/2026-11-06-workflows-beat-agents-process-store.svg",
+    "cardImage": "covers/2026-11-06-workflows-beat-agents-process-store.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-06-workflows-beat-agents-process-store.md"
+  },
+  {
     "slug": "2026-11-05-vibe-coding-is-over-agentic-engineering",
     "title": "Vibe Coding Is Over. Here's What Replaced It",
     "author": "Ashwini T",
