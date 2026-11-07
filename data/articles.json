@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-07-claude-code-email-leak-context",
+    "title": "Claude Code's Email Leak Started in the Context",
+    "author": "Szymon Cytrowski",
+    "date": "2026-11-07T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@scytrowski/claude-code-email-leak-context-7f9a3cf9e453",
+    "status": "processed",
+    "excerpt": "代码级取证：2.1.108 起 OAuth 账户邮箱被注入模型上下文（一行 diff）、经 User-Agent 外泄的机制、隐私 mod 是「礼貌而非边界」——以及上下文即行为的评审纪律。",
+    "image": "covers/2026-11-07-claude-code-email-leak-context.svg",
+    "cardImage": "covers/2026-11-07-claude-code-email-leak-context.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-07-claude-code-email-leak-context.md"
+  },
+  {
+    "slug": "2026-11-07-decision-models-system-one",
+    "title": "Decision models are what many AI systems actually need",
+    "author": "Drayke Friesen",
+    "date": "2026-11-07T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@drayke_monogram/decision-models-are-what-many-ai-systems-actually-need-7b96e39e360d",
+    "status": "processed",
+    "excerpt": "LLM 生成文本，决策模型选择答案——三形态（是/否、选一、打分）+ Kahneman System One 框架 + 客户支持管线 8 问实战 + Jev vs 开源 Kev 微调后打平：「为决定而造的模型，赢过为写作而造的模型。」",
+    "image": "covers/2026-11-07-decision-models-system-one.svg",
+    "cardImage": "covers/2026-11-07-decision-models-system-one.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-07-decision-models-system-one.md"
+  },
+  {
+    "slug": "2026-11-07-rag-failing-before-retrieval-parsing-chunking",
+    "title": "Your RAG May Be Failing Before Retrieval Even Starts",
+    "author": "Ramchandra Regmi",
+    "date": "2026-11-07T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@rregmi1993/your-rag-may-be-failing-before-retrieval-even-starts-f7ecb2f93493",
+    "status": "processed",
+    "excerpt": "「知识在检索开始前就被切错了」：解析决定什么信息存活、分块决定什么能被一起取回——六种分块策略对比与「百万文档变千万向量」的运营账，FDE 的真问题不是 chunk size。",
+    "image": "covers/2026-11-07-rag-failing-before-retrieval-parsing-chunking.svg",
+    "cardImage": "covers/2026-11-07-rag-failing-before-retrieval-parsing-chunking.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-07-rag-failing-before-retrieval-parsing-chunking.md"
+  },
+  {
     "slug": "2026-11-06-model-scored-95-7-year-baseline",
     "title": "My model scored 95.7%. Then a model that only knew the year nearly matched it.",
     "author": "Manju Swaroop",
