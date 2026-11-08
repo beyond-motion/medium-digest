@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-08-6-planning-patterns-for-ai-agents",
+    "title": "6 Planning Patterns for AI Agents and When Each One Fits",
+    "author": "Shaheryar Yousaf",
+    "date": "2026-11-08T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@shaheryaryousaf/6-planning-patterns-for-ai-agents-and-when-each-one-fits-809d01c09a95",
+    "status": "processed",
+    "excerpt": "计划是组织工作的方式，不是推理正确的证明——固定工作流/先计划后执行/ReAct/路由专家/并行/起草评估修订六模式，从任务出发而非从流行模式出发，外加五大常见错误清单。",
+    "image": "covers/2026-11-08-6-planning-patterns-for-ai-agents.svg",
+    "cardImage": "covers/2026-11-08-6-planning-patterns-for-ai-agents.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-08-6-planning-patterns-for-ai-agents.md"
+  },
+  {
+    "slug": "2026-11-08-find-the-queue-before-architecture",
+    "title": "Application Performance: Find the Queue Before You Change the Architecture",
+    "author": "Tanvin Ahmed",
+    "date": "2026-11-08T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@tanvin-ahmed-touhid/application-performance-find-the-queue-before-you-change-the-architecture-56989932764d",
+    "status": "processed",
+    "excerpt": "「每个性能问题都是某处正在排队的队列」：定义-测量-定位-优化的框架，四大区域找队列（网络/数据库/OS/代码），P99 尾延迟实战（加一个 Mongo 索引 2000ms→180ms），改架构前先找瓶颈。",
+    "image": "covers/2026-11-08-find-the-queue-before-architecture.svg",
+    "cardImage": "covers/2026-11-08-find-the-queue-before-architecture.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-08-find-the-queue-before-architecture.md"
+  },
+  {
     "slug": "2026-11-07-claude-code-email-leak-context",
     "title": "Claude Code's Email Leak Started in the Context",
     "author": "Szymon Cytrowski",
