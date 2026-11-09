@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-09-cdc-system-design-postgresql-kafka-debezium",
+    "title": "CDC System Design Interview: PostgreSQL, Kafka, Debezium and the Failure Nobody Tests",
+    "author": "Architecture Unfiltered",
+    "date": "2026-11-09T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/engineering-playbook/cdc-system-design-interview-postgresql-kafka-debezium-and-the-failure-nobody-tests-852d4aed0a4a",
+    "status": "processed",
+    "excerpt": "CDC 系统设计八讲：复制槽能填满你的磁盘、初始快照是一致性问题、Kafka 顺序有边界、At-Least-Once 要求幂等、CDC vs Outbox、failover 追问——「数据库 HA 与 CDC 连续性是分开的工程保证」。",
+    "image": "covers/2026-11-09-cdc-system-design-postgresql-kafka-debezium.svg",
+    "cardImage": "covers/2026-11-09-cdc-system-design-postgresql-kafka-debezium.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-09-cdc-system-design-postgresql-kafka-debezium.md"
+  },
+  {
+    "slug": "2026-11-09-green-test-suite-proves-nothing",
+    "title": "Your Green Test Suite Proves Nothing Until You Break It",
+    "author": "Adam McClarin",
+    "date": "2026-11-09T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@adammcclarin/your-green-test-suite-proves-nothing-until-you-break-it-52653cbff374",
+    "status": "processed",
+    "excerpt": "删掉租户隔离条款、跑测试——如果全绿，你的套件从没在检查你以为的边界：双租户负测试、手工变异测试、咽喉点守卫与 append-only 权限的完整纪律。",
+    "image": "covers/2026-11-09-green-test-suite-proves-nothing.svg",
+    "cardImage": "covers/2026-11-09-green-test-suite-proves-nothing.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-09-green-test-suite-proves-nothing.md"
+  },
+  {
     "slug": "2026-11-08-6-planning-patterns-for-ai-agents",
     "title": "6 Planning Patterns for AI Agents and When Each One Fits",
     "author": "Shaheryar Yousaf",
