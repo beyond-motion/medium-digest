@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-10-automating-decisions-on-distrusted-data",
+    "title": "Automating Decisions on Data We Still Don't Trust",
+    "author": "Avinash Maddineni",
+    "date": "2026-11-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/towards-artificial-intelligence/automating-decisions-on-data-we-still-dont-trust-fcf8b06631e3",
+    "status": "processed",
+    "excerpt": "「回答是宽容的，行动不是」：agent 把审查边界从人挪到代码之后，数据校验要保护的是执行而非展示——Provenance/Scope/Fitness/Reversibility 四问与先测失败路径再扩权的完整纪律。",
+    "image": "covers/2026-11-10-automating-decisions-on-distrusted-data.svg",
+    "cardImage": "covers/2026-11-10-automating-decisions-on-distrusted-data.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-10-automating-decisions-on-distrusted-data.md"
+  },
+  {
+    "slug": "2026-11-10-beyond-writing-code-taste-skills-tech-leads",
+    "title": "Beyond Writing Code: Taste, Skills, and Tech Leads",
+    "author": "Daniela Petruzalek",
+    "date": "2026-11-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/google-cloud/beyond-writing-code-taste-skills-and-tech-leads-592049deaa5f",
+    "status": "processed",
+    "excerpt": "用 SICP 的「咒语」比喻串起 agentic 时代工程师的新角色：每个人都升职成了 tech lead——引导 agent 而非人类；agent 是十倍速的品味培养皿；破窗理论在代码里被放大。",
+    "image": "covers/2026-11-10-beyond-writing-code-taste-skills-tech-leads.svg",
+    "cardImage": "covers/2026-11-10-beyond-writing-code-taste-skills-tech-leads.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-10-beyond-writing-code-taste-skills-tech-leads.md"
+  },
+  {
+    "slug": "2026-11-10-why-your-model-got-nerfed",
+    "title": "Why Your Model Got Nerfed",
+    "author": "Tim Sylvester",
+    "date": "2026-11-10T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@TimSylvester/why-your-model-got-nerfed-470f80f25ec8",
+    "status": "processed",
+    "excerpt": "「模型被削了」的代数真相：Compute/(Models×Users)——新品上线、爆红、退役三个时刻的算力再分配，厂商想要 10 万并发用户的「相当好」而不是 5 千用户的「最好」。",
+    "image": "covers/2026-11-10-why-your-model-got-nerfed.svg",
+    "cardImage": "covers/2026-11-10-why-your-model-got-nerfed.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-10-why-your-model-got-nerfed.md"
+  },
+  {
     "slug": "2026-11-09-cdc-system-design-postgresql-kafka-debezium",
     "title": "CDC System Design Interview: PostgreSQL, Kafka, Debezium and the Failure Nobody Tests",
     "author": "Architecture Unfiltered",
