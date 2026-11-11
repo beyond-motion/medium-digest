@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-11-netflix-fact-checking-at-scale",
+    "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+    "author": "Netflix Technology Blog",
+    "date": "2026-11-11T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/netflix-techblog/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
+    "status": "processed",
+    "excerpt": "Netflix TechBlog：概要事实性系统的级联改造——Bridgerton 四个例子定义「技术上全真但误导」的非事实性，置信门禁+双专业化判官+原子声明复核，成本 -52.4%、Recall-Fail 0.77→0.86、与人类标注员理由重合 ~69%→~82%。",
+    "image": "covers/2026-11-11-netflix-fact-checking-at-scale.svg",
+    "cardImage": "covers/2026-11-11-netflix-fact-checking-at-scale.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-11-netflix-fact-checking-at-scale.md"
+  },
+  {
+    "slug": "2026-11-11-llm-streaming-sse-production-failures",
+    "title": "LLM Streaming in Production: 6 Ways Server-Sent Events Break After the Demo",
+    "author": "Pranav Kumar",
+    "date": "2026-11-11T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@k.pranav_22/llm-streaming-in-production-6-ways-server-sent-events-break-after-the-demo-4664f4cc700c",
+    "status": "processed",
+    "excerpt": "localhost 上流式永远正常——上真实负载均衡才见六种故障：缓冲、空闲超时、孤儿生成、200 之后的错误、半截输出入库、重连重启生成；心跳头+终止事件+job-bound 架构的完整处方。",
+    "image": "covers/2026-11-11-llm-streaming-sse-production-failures.svg",
+    "cardImage": "covers/2026-11-11-llm-streaming-sse-production-failures.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-11-llm-streaming-sse-production-failures.md"
+  },
+  {
     "slug": "2026-11-10-automating-decisions-on-distrusted-data",
     "title": "Automating Decisions on Data We Still Don't Trust",
     "author": "Avinash Maddineni",
