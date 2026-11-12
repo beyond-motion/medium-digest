@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-12-deepseek-thats-just-what-it-costs",
+    "title": "DeepSeek and the Trouble With \"That's Just What It Costs\"",
+    "author": "Cordero Core",
+    "date": "2026-11-12T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@cdcore/deepseek-and-the-trouble-with-thats-just-what-it-costs-2d502afd23d4",
+    "status": "processed",
+    "excerpt": "550 万美元训练出对标前沿的模型，Nvidia 单日蒸发 5890 亿——DeepSeek 一周之内撬动了一整个行业赖以组织的地基假设；MoE 与蒸馏如何把「规模」与「成本」拆开，以及效率为什么永远追着前沿跑而无法取代它。",
+    "image": "covers/2026-11-12-deepseek-thats-just-what-it-costs.svg",
+    "cardImage": "covers/2026-11-12-deepseek-thats-just-what-it-costs.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-12-deepseek-thats-just-what-it-costs.md"
+  },
+  {
+    "slug": "2026-11-12-weights-are-becoming-code",
+    "title": "Weights Are Becoming Code",
+    "author": "Pierre Emmanuel Féga",
+    "date": "2026-11-12T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@pierreemmanuelfega/weights-are-becoming-code-c4f14c035205",
+    "status": "processed",
+    "excerpt": "MIT CSAIL「权空间编程的火花」：GPT-6 Astra 读另一个网络的参数、改写权重、不跑梯度下降——Qwen3.5-0.8B 改 0.016% 权重 MATH-500 从 7.9% 到 48.1%。从 Schmidhuber 1991 到 2026 的四个谱系、社区一天内的三连批判，以及「只能移除障碍、不能新增能力」这条硬边界。",
+    "image": "covers/2026-11-12-weights-are-becoming-code.svg",
+    "cardImage": "covers/2026-11-12-weights-are-becoming-code.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-12-weights-are-becoming-code.md"
+  },
+  {
     "slug": "2026-11-11-netflix-fact-checking-at-scale",
     "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
     "author": "Netflix Technology Blog",
