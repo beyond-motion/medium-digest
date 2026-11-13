@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-13-nvidia-without-huang-moat-bigger-than-man",
+    "title": "Nvidia Without Huang: The Moat Is Bigger Than the Man",
+    "author": "David \"Dap\" Pearlman",
+    "date": "2026-11-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@dapscience/nvidia-without-huang-the-moat-is-bigger-than-the-man-e1631a30caed",
+    "status": "processed",
+    "excerpt": "Jensen Huang 辞职当日的冷静分析：2011 年 Apple 换帅类比为什么成立又不成立——CUDA 二十年护城河「比苹果生态的糨糊更接近强力胶」，但无继任计划、国家安全阴影与「优化者 vs 拐角视野」三处类比失真；结论是温和担忧而非绝望：「公司从来不是那件皮夹克，是架构」。",
+    "image": "covers/2026-11-13-nvidia-without-huang-moat-bigger-than-man.svg",
+    "cardImage": "covers/2026-11-13-nvidia-without-huang-moat-bigger-than-man.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-13-nvidia-without-huang-moat-bigger-than-man.md"
+  },
+  {
+    "slug": "2026-11-13-tk-agentic-notebook-medium",
+    "title": "We are betting on human intelligence: Meet TK, an agentic notebook",
+    "author": "Tony Stubblebine",
+    "date": "2026-11-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/blog/tk-a-new-private-notebook-app-from-medium-13d3d6efdce1",
+    "status": "processed",
+    "excerpt": "Medium 官方发布 agentic notebook「TK」：赌人类智能而非机器代想——@TK 占位符让 AI 进入写作流而非打断它、社交库+wiki 式总结让凌乱笔记长成想法、MCP server+Claude skill 把第二大脑变成可挂载的 AI sidecar；价值观清单首次公开「Love/Hate AI」全史。",
+    "image": "covers/2026-11-13-tk-agentic-notebook-medium.svg",
+    "cardImage": "covers/2026-11-13-tk-agentic-notebook-medium.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-13-tk-agentic-notebook-medium.md"
+  },
+  {
+    "slug": "2026-11-13-will-ai-make-society-richer",
+    "title": "Will AI Make Society Richer, or Simply Make the Rich Richer?",
+    "author": "Gonzalo Almada",
+    "date": "2026-11-13T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@g.almada.tijman/will-ai-make-society-richer-or-simply-make-the-rich-richer-48d067a700b4",
+    "status": "processed",
+    "excerpt": "AI 财富分配的入门综述：生产率外扩不必然降价、就业替代与历史类比、资本-劳动鸿沟与国家间差距、高门槛导致的市场集中；核心判断——最大的问题不是 AI 会不会创造财富，而是谁拿到它；真正的检验不是赚了多少钱，而是多少人能用上。",
+    "image": "covers/2026-11-13-will-ai-make-society-richer.svg",
+    "cardImage": "covers/2026-11-13-will-ai-make-society-richer.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-13-will-ai-make-society-richer.md"
+  },
+  {
     "slug": "2026-11-12-deepseek-thats-just-what-it-costs",
     "title": "DeepSeek and the Trouble With \"That's Just What It Costs\"",
     "author": "Cordero Core",
