@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-14-ca-private-key-number-four",
+    "title": "A certificate authority trusted by every browser used the number 4 as a private key. For 18 months.",
+    "author": "Asish kumar",
+    "date": "2026-11-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@asish_kumar/a-certificate-authority-trusted-by-every-browser-used-the-number-4-as-a-private-key-for-18-months-61e1a53a1484",
+    "status": "processed",
+    "excerpt": "不是黑客也不是后门：一段 Python 脚本把 48 字节的 P-384 私钥截断成 1 个字节，密钥仪式里没人测试结果，两轮审计挥手放行——eMudhra（Chrome/Firefox/Safari/Windows 全信任的 CA）的八把中间 CA 私钥里有一把是数字 4，在信任库里躺了 18 个月；而 curl、Python、Node 至今默认信任你磁盘上那份不再校验吊销的根证书包。",
+    "image": "covers/2026-11-14-ca-private-key-number-four.svg",
+    "cardImage": "covers/2026-11-14-ca-private-key-number-four.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-14-ca-private-key-number-four.md"
+  },
+  {
+    "slug": "2026-11-14-cisco-codeguard-security-rules",
+    "title": "Cisco CodeGuard: Security Rules for AI Coding Agents",
+    "author": "Abhishek Kanwar",
+    "date": "2026-11-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@abhics.blr/cisco-codeguard-security-rules-for-ai-coding-agents-dc284bcc4660",
+    "status": "processed",
+    "excerpt": "Cisco 开源、已捐 CoSAI（Google/Anthropic/OpenAI/NVIDIA/Microsoft 维护）的 CodeGuard：23 条 markdown 安全规则写一次、翻译器分发到 Cursor/Copilot/Claude Code/Codex，在规划/生成/审查三个时点进入 agent 上下文——扫描器告诉你第 3 行有问题，规则告诉 agent 正确的模式是什么。",
+    "image": "covers/2026-11-14-cisco-codeguard-security-rules.svg",
+    "cardImage": "covers/2026-11-14-cisco-codeguard-security-rules.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-14-cisco-codeguard-security-rules.md"
+  },
+  {
+    "slug": "2026-11-14-logreg-beat-lightgbm-smote-hurt",
+    "title": "Logistic regression beat LightGBM. SMOTE made it worse.",
+    "author": "Natpaphon Nukhunthod",
+    "date": "2026-11-14T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@natpaphon.nukhunthod/logistic-regression-beat-lightgbm-smote-made-it-worse-090d5d0632eb",
+    "status": "processed",
+    "excerpt": "欺诈检测「标准配方」的实证翻车：每个红旗把欺诈几率乘法提升（×7.6/×5.7/×4.9/×3.2）的加法 log-odds 形状让逻辑回归直接胜过调优后的 LightGBM；SMOTENC 邻居投票造出的「合成欺诈」带红旗频率只有真欺诈 0.38 倍——模型从不像欺诈的欺诈里学习，PR-AUC 掉 0.177；成本阈值 0.0695 用 5% 的 step-up 抓住 70% 欺诈。",
+    "image": "covers/2026-11-14-logreg-beat-lightgbm-smote-hurt.svg",
+    "cardImage": "covers/2026-11-14-logreg-beat-lightgbm-smote-hurt.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-14-logreg-beat-lightgbm-smote-hurt.md"
+  },
+  {
     "slug": "2026-11-13-nvidia-without-huang-moat-bigger-than-man",
     "title": "Nvidia Without Huang: The Moat Is Bigger Than the Man",
     "author": "David \"Dap\" Pearlman",
