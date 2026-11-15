@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-15-vllm-rtx-4090-measured",
+    "title": "How to serve your own LLM on a GPU with vLLM: what we measured on a rented RTX 4090",
+    "author": "Roni Das",
+    "date": "2026-11-15T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@systemdesignacademy/how-to-serve-your-own-llm-on-a-gpu-with-vllm-what-we-measured-on-a-rented-rtx-4090-0343ac020d30",
+    "status": "processed",
+    "excerpt": "租一张 RTX 4090（$0.89/时）跑 vLLM 0.33 实测全记录：安装 1 分钟、启动 2 分 50 秒（权重只占 10 秒，其余是编译+CUDA 图）、KV cache 纸上可算（0.6B 每 token 112 KiB）、64 人并发总吞吐 34 倍而每人只慢 1.9 倍（读快写慢 56 倍的连续批处理红利）、容量规划要按 cache token 数不按用户数。",
+    "image": "covers/2026-11-15-vllm-rtx-4090-measured.svg",
+    "cardImage": "covers/2026-11-15-vllm-rtx-4090-measured.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-15-vllm-rtx-4090-measured.md"
+  },
+  {
+    "slug": "2026-11-15-other-kind-of-context-rot",
+    "title": "The other kind of context rot",
+    "author": "Barr Moses",
+    "date": "2026-11-15T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/data-science-collective/the-other-kind-of-context-rot-e4bd4c602062",
+    "status": "processed",
+    "excerpt": "窗口腐烂之外还有源头腐烂（source rot）：发生在数据到达上下文窗口之前的腐烂——过时管线对每个窗口规模化投毒、向量库新政策与延迟旧表沉默打架；STALE 基准最好模型仅 55%，Air Canada/Unity 1.1 亿美元/披萨加胶水三个实战案例，四条架构解药（新鲜度元数据/schema 契约/记忆 TTL/数据监控）。",
+    "image": "covers/2026-11-15-other-kind-of-context-rot.svg",
+    "cardImage": "covers/2026-11-15-other-kind-of-context-rot.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-15-other-kind-of-context-rot.md"
+  },
+  {
+    "slug": "2026-11-15-batch-size-learning-decision",
+    "title": "Why Your Batch Size Is a Learning Decision, Not a Memory Setting",
+    "author": "Mahdi Moghadasi",
+    "date": "2026-11-15T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@mahdi.nasermoghadasi/why-your-batch-size-is-a-learning-decision-not-a-memory-setting-cf1518d5e30a",
+    "status": "processed",
+    "excerpt": "batch size 是学习算法的参数不是硬件旋钮：4 倍 batch 只换 √4=2 倍降噪（1024 vs 32 只有 5.7 倍）、噪声帮优化器逃向宽平极小值、线性缩放规则（batch×k 则 LR×k+warmup）有临界值且 Adam 不干净遵循；最常见的 bug 是 per-device batch 配置——挪到 8 卡时全局 batch 静默 4 倍、实验悄悄换了个。",
+    "image": "covers/2026-11-15-batch-size-learning-decision.svg",
+    "cardImage": "covers/2026-11-15-batch-size-learning-decision.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-15-batch-size-learning-decision.md"
+  },
+  {
     "slug": "2026-11-14-ca-private-key-number-four",
     "title": "A certificate authority trusted by every browser used the number 4 as a private key. For 18 months.",
     "author": "Asish kumar",
