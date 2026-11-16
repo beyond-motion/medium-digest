@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-16-knowledge-editing-rome-memit",
+    "title": "Knowledge Editing: Changing a Fact Inside a Model's Weights With ROME and MEMIT",
+    "author": "Izzet Can Sorna",
+    "date": "2026-11-16T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@izzetcansorna/knowledge-editing-changing-a-fact-inside-a-models-weights-with-rome-and-memit-a1cbfcceb0b4",
+    "status": "processed",
+    "excerpt": "知识编辑教学文：因果追踪发现中层 MLP 模块介导事实回忆，ROME 把 MLP 当线性联想记忆用秩一更新写入新键值对、MEMIT 摊到多层一次写千条事实；诚实的边界——定位与编辑成功率几乎零相关（Hase 2023）、规模顺序编辑先渐进后灾难性遗忘（Gupta 2024）、涟漪效应不传播（Cohen 2024）。",
+    "image": "covers/2026-11-16-knowledge-editing-rome-memit.svg",
+    "cardImage": "covers/2026-11-16-knowledge-editing-rome-memit.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-16-knowledge-editing-rome-memit.md"
+  },
+  {
+    "slug": "2026-11-16-signs-of-ai-writing-9-tells",
+    "title": "Signs of AI writing: the 9 tells",
+    "author": "Slop Monkey",
+    "date": "2026-11-16T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@slopmonkey/signs-of-ai-writing-the-9-tells-e0b98b17e2be",
+    "status": "processed",
+    "excerpt": "AI 写作的九个破绽：没人嘴上说的词（delve/tapestry/testament）、说了没的开场、先发明再纠正的对比句式、凡事三件套、每句过渡词、em dash 成瘾、段落同构、自信且含糊（Studies show 无出处）、聊天腔残留（Certainly!）；附五步手修法——砍首末段、说实在的、放进只有你知道的数字。",
+    "image": "covers/2026-11-16-signs-of-ai-writing-9-tells.svg",
+    "cardImage": "covers/2026-11-16-signs-of-ai-writing-9-tells.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-16-signs-of-ai-writing-9-tells.md"
+  },
+  {
+    "slug": "2026-11-16-faa-outage-not-one-router",
+    "title": "The FAA Outage Was Never About One Router",
+    "author": "John Philip",
+    "date": "2026-11-16T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@amjohnphilip/the-faa-outage-was-never-about-one-router-9c59e984b183",
+    "status": "processed",
+    "excerpt": "FAA 全国地面停飞读后感：Richard Cook《How Complex Systems Fail》的正确回 réflexe——灾难几乎不来自单点断裂而来自多个先前被容忍的小失败同时排齐、系统一直以降级模式运行、事后回溯让一线人显得疏忽而实际他们在信息不全下连续赌博；别把根因当主要交付物。",
+    "image": "covers/2026-11-16-faa-outage-not-one-router.svg",
+    "cardImage": "covers/2026-11-16-faa-outage-not-one-router.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-16-faa-outage-not-one-router.md"
+  },
+  {
     "slug": "2026-11-15-vllm-rtx-4090-measured",
     "title": "How to serve your own LLM on a GPU with vLLM: what we measured on a rented RTX 4090",
     "author": "Roni Das",
