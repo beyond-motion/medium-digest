@@ -2,5 +2,6 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   output: "static",
-  site: process.env.SITE_URL || "https://medium.beyondmotion.net/",
+  base: "/medium-digest/",
+  site: process.env.SITE_URL || "https://beyond-motion.github.io/medium-digest/",
 });
