@@ -14,10 +14,14 @@
 """
 import argparse
 import http.client
+import json
+import os
 import pathlib
+import subprocess
 import sys
 import time
 import urllib.parse
+import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ICON = {"success": "✅", "no_update": "📭", "failure": "❌"}
@@ -35,12 +39,54 @@ def load_env() -> dict:
     return env
 
 
+def _send_via_relay(token: str, chat_id: str, text: str) -> tuple[bool, str]:
+    relay_url = os.environ.get("FREE_RELAY_URL") or subprocess.check_output(
+        ["security", "find-generic-password", "-a", "wanglingwei", "-s", "remio-gcp-free-relay-url", "-w"],
+        text=True, stderr=subprocess.DEVNULL, timeout=5,
+    ).strip()
+    relay_tok = os.environ.get("FREE_RELAY_TOKEN") or subprocess.check_output(
+        ["security", "find-generic-password", "-a", "wanglingwei", "-s", "remio-gcp-free-relay-token", "-w"],
+        text=True, stderr=subprocess.DEVNULL, timeout=5,
+    ).strip()
+    target_url = "https://api.telegram.org/bot" + urllib.parse.quote(token, safe="") + "/sendMessage"
+    req = urllib.request.Request(
+        relay_url.rstrip("/") + "/relay",
+        data=json.dumps({
+            "url": target_url,
+            "method": "POST",
+            "headers": {"Content-Type": "application/json"},
+            "body": {"chat_id": chat_id, "text": text},
+        }).encode(),
+        headers={"Authorization": f"Bearer {relay_tok}", "Content-Type": "application/json"},
+        method="POST",
+    )
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    with opener.open(req, timeout=25) as resp:
+        raw = resp.read()
+        if json_ok(raw):
+            return True, f"relay http={resp.status}"
+        return False, f"relay http={resp.status} body={raw[:120].decode('utf-8', 'ignore')}"
+
+
 def send(token: str, chat_id: str, text: str) -> tuple[bool, str]:
     """单次发送；返回 (ok, 诊断)。ok 仅当 Telegram 回 {"ok": true}，否则附 HTTP 状态。"""
     # token 只 quote 进路径；host 是字面常量，结构上杜绝 SSRF（env 值无法改写目标主机）
     path = "/bot" + urllib.parse.quote(token, safe="") + "/sendMessage"
     body = urllib.parse.urlencode({"chat_id": chat_id, "text": text}).encode()
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    tg_proxy = os.environ.get("TG_PROXY")
+    if tg_proxy:
+        req = urllib.request.Request("https://api.telegram.org" + path, data=body, headers=headers, method="POST")
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({"http": tg_proxy, "https": tg_proxy}))
+        try:
+            with opener.open(req, timeout=15) as resp:
+                raw = resp.read()
+                if json_ok(raw):
+                    return True, f"http={resp.status}"
+        except Exception:
+            pass
+        return _send_via_relay(token, chat_id, text)
+
     conn = http.client.HTTPSConnection("api.telegram.org", timeout=15)
     try:
         conn.request("POST", path, body=body, headers=headers)
@@ -48,9 +94,16 @@ def send(token: str, chat_id: str, text: str) -> tuple[bool, str]:
         raw = resp.read()
         if json_ok(raw):
             return True, f"http={resp.status}"
-        return False, f"http={resp.status} body={raw[:120].decode('utf-8', 'ignore')}"
+        primary_err = f"http={resp.status} body={raw[:120].decode('utf-8', 'ignore')}"
+    except Exception as exc:
+        primary_err = str(exc)
     finally:
         conn.close()
+
+    try:
+        return _send_via_relay(token, chat_id, text)
+    except Exception as relay_exc:
+        return False, f"primary={primary_err}; relay={relay_exc}"
 
 
 def main() -> int:

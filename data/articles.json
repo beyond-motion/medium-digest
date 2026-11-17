@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-17-anthropic-junior-hires-27-to-9",
+    "title": "Anthropic Cut Junior Tech Hires From 27% to 9%. Copy That, and You Run Out of Seniors.",
+    "author": "Abbas Mistrah",
+    "date": "2026-11-17T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/towards-artificial-intelligence/anthropic-cut-junior-tech-hires-from-27-to-9-copy-that-and-you-run-out-of-seniors-c90f9ce18f5f",
+    "status": "processed",
+    "excerpt": "澳联储数据：AI 高暴露职业里年轻人就业最先受击——不在裁员在停招；Anthropic 内部数据初级技术雇佣占比 27%→9%、agent 工时已超员工工时 6 倍、meta-work 占比 10%→22%；「因为 AI 能干初级活就砍初级岗」是 2026 年最昂贵的节省——2031 年你会发现没人会为 agent 的产出签字。",
+    "image": "covers/2026-11-17-anthropic-junior-hires-27-to-9.svg",
+    "cardImage": "covers/2026-11-17-anthropic-junior-hires-27-to-9.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-17-anthropic-junior-hires-27-to-9.md"
+  },
+  {
+    "slug": "2026-11-17-go-defer-almost-free-until",
+    "title": "Go's defer Is Almost Free — Until You Do This",
+    "author": "Vitaly Sem",
+    "date": "2026-11-17T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@virtualik/gos-defers-almost-free-until-you-do-this-a5d58cce7773",
+    "status": "processed",
+    "excerpt": "同一个 defer 语句可以有完全不同的运行时成本：编译器三种实现（open-coded/栈分配/堆分配）的判定条件——每函数最多 8 个 open-coded 位、returns×defers≤15 启发式、循环内 defer 强制堆分配且禁用全函数 open-coded；一个 innocuous 循环如何变成 too many open files 的生产事故，以及 -d=defer 诊断旗标。",
+    "image": "covers/2026-11-17-go-defer-almost-free-until.svg",
+    "cardImage": "covers/2026-11-17-go-defer-almost-free-until.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-17-go-defer-almost-free-until.md"
+  },
+  {
+    "slug": "2026-11-17-why-80-percent-ai-pilots-stall",
+    "title": "Why 80% of Enterprise AI Pilots Stall Before Production: A Bilateral Cost & Architecture Audit",
+    "author": "SplitNews Ai",
+    "date": "2026-11-17T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@splitnews.ai/why-80-of-enterprise-ai-pilots-stall-before-production-a-bilateral-cost-architecture-audit-44f205bb012d",
+    "status": "processed",
+    "excerpt": "五大架构失败点的双边审计：无界上下文注入 vs token 经济学、自主多 agent 循环 vs 确定性控制（95% 单步×10 步<60% 端到端）、API 锁定 vs 数据主权、语义向量检索 vs 词法精确性（SKU/条款号盲区）、氛围检查 vs 自动化评估；附年度推理 OpEx 审计脚本与修复矩阵。",
+    "image": "covers/2026-11-17-why-80-percent-ai-pilots-stall.svg",
+    "cardImage": "covers/2026-11-17-why-80-percent-ai-pilots-stall.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-17-why-80-percent-ai-pilots-stall.md"
+  },
+  {
     "slug": "2026-11-16-knowledge-editing-rome-memit",
     "title": "Knowledge Editing: Changing a Fact Inside a Model's Weights With ROME and MEMIT",
     "author": "Izzet Can Sorna",
