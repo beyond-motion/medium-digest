@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-18-recursive-self-improvement-better-experiment",
+    "title": "Recursive Self-Improvement Needs a Better Experiment",
+    "author": "Sebastian Mateus",
+    "date": "2026-11-18T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@SebastianMateusP/recursive-self-improvement-needs-a-better-experiment-e78c0cb1c245",
+    "status": "processed",
+    "excerpt": "RSI 的评估困境：「更好的 agent」与「更好的 agent 构建者」是两个结果——2026-10 preprint 审计的 26 项研究中只有 4 项在相同起始工件+匹配预算下比较了早晚改进流程；v2 继承更好代码库/记忆/双倍算力时，改了三个配料却把功劳记给厨师的顿悟；配对差值实验模式与等预算基线。",
+    "image": "covers/2026-11-18-recursive-self-improvement-better-experiment.svg",
+    "cardImage": "covers/2026-11-18-recursive-self-improvement-better-experiment.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-18-recursive-self-improvement-better-experiment.md"
+  },
+  {
+    "slug": "2026-11-18-safest-agent-unplugged-terrible-metric",
+    "title": "The Safest Agent Is Unplugged. That Is a Terrible Product Metric.",
+    "author": "Sebastian Mateus",
+    "date": "2026-11-18T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@SebastianMateusP/the-safest-agent-is-unplugged-that-is-a-terrible-product-metric-b9b44e31dd8b",
+    "status": "processed",
+    "excerpt": "「我发明了一个零危险工具调用的 agent——它也零有用产出」：安全指标单独优化会奖励拔掉插头的 agent；正确做法是把有用工作与对抗性结果放进同一个度量里测量。",
+    "image": "covers/2026-11-18-safest-agent-unplugged-terrible-metric.svg",
+    "cardImage": "covers/2026-11-18-safest-agent-unplugged-terrible-metric.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-18-safest-agent-unplugged-terrible-metric.md"
+  },
+  {
+    "slug": "2026-11-18-what-evidence-says-ai-productivity",
+    "title": "What the Evidence Says About AI Productivity",
+    "author": "Miles K.",
+    "date": "2026-11-18T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@milesk_33/what-the-evidence-says-about-ai-productivity-cfcfff9bb38f",
+    "status": "processed",
+    "excerpt": "2025-2026 全证据链综述：METR「预期快 24% 实测慢 19%、事后仍相信快 20%」的最常引数字已过时——微软数万工程师 rollout 合并 PR +24%、BCG 锯齿状前沿界外 -19pp、丹麦行政记录精确零效应、Stanford 初级就业 -19%、Klarna 全年报表的混合模型真相；任务级=是、公司级=还没有，差距主要是组织的。",
+    "image": "covers/2026-11-18-what-evidence-says-ai-productivity.svg",
+    "cardImage": "covers/2026-11-18-what-evidence-says-ai-productivity.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-18-what-evidence-says-ai-productivity.md"
+  },
+  {
     "slug": "2026-11-17-anthropic-junior-hires-27-to-9",
     "title": "Anthropic Cut Junior Tech Hires From 27% to 9%. Copy That, and You Run Out of Seniors.",
     "author": "Abbas Mistrah",
