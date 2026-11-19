@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-19-pandas-polars-dask-energy-measured",
+    "title": "I Compared Three Popular Python Data Libraries on My Own Laptop: Here Is What I Found.",
+    "author": "Tuan Nguyen",
+    "date": "2026-11-19T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@nguyenletuan220508/i-measured-the-energy-use-of-pandas-polars-and-dask-on-my-laptop-here-is-what-i-found-8661f22901a7",
+    "status": "processed",
+    "excerpt": "论文复现实测：420 runs 测 Pandas/Polars/Dask 能耗——Dask 六项全最高（C1 比 Pandas 高 55.7%，论文只 14.1%）、论文里 Polars 2.3x 优势未重现（76.24 vs 76.63 J 区间重叠）、NCF GPU 三区间全重叠；四大 setup 坑与四条方法论教训（预定义判据/比区间不只比点估计）。",
+    "image": "covers/2026-11-19-pandas-polars-dask-energy-measured.svg",
+    "cardImage": "covers/2026-11-19-pandas-polars-dask-energy-measured.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-19-pandas-polars-dask-energy-measured.md"
+  },
+  {
+    "slug": "2026-11-19-kamzik-1-qwen-06b-overthinking",
+    "title": "Introducing Kamzik-1: How can you stop Qwen 0.6B from overthinking like a literature teacher?",
+    "author": "Martin Šenkýř",
+    "date": "2026-11-19T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@senkyr.martin/introducing-kamzik-1-how-can-you-stop-qwen-0-6b-from-overthinking-like-a-literature-teacher-f41c6c023860",
+    "status": "processed",
+    "excerpt": "一名高中生用 150 美元云信用治好了 Qwen 0.6B 的「文学老师式过度思考」：大模型读学生轨迹写 3 条提示（带泄题过滤器）→学生带提示跑 4 次取最短正确答案→纯问题+短答案训练；64 神经元小 MLP 适配器胜过 LoRA（省 6pp token、参数少 6 倍）；所有变体撞同一堵墙——每省 1% token 损失 0.06-0.08 精度点。",
+    "image": "covers/2026-11-19-kamzik-1-qwen-06b-overthinking.svg",
+    "cardImage": "covers/2026-11-19-kamzik-1-qwen-06b-overthinking.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-19-kamzik-1-qwen-06b-overthinking.md"
+  },
+  {
+    "slug": "2026-11-19-what-is-a-streamhouse",
+    "title": "What Is a Streamhouse?",
+    "author": "Sean Falconer",
+    "date": "2026-11-19T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@seanfalconer/what-is-a-streamhouse-667eef91b8d5",
+    "status": "processed",
+    "excerpt": "五家流厂商（Confluent/Redpanda/StreamNative/Aiven/Ververica）9 月联合发布「streamhouse」定义：围绕业务变更日志+表存储的架构——人一天做几个决策容忍 8:00 刷新，agent 每次运行都决策且默默在矛盾数据里选边；银行账本比喻、五动词（捕获/传输/转换/治理/服务）、三性质（永远当前/关键任务/去中心化）、变更即原语、轮询 vs 变更信号。",
+    "image": "covers/2026-11-19-what-is-a-streamhouse.svg",
+    "cardImage": "covers/2026-11-19-what-is-a-streamhouse.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-19-what-is-a-streamhouse.md"
+  },
+  {
     "slug": "2026-11-18-recursive-self-improvement-better-experiment",
     "title": "Recursive Self-Improvement Needs a Better Experiment",
     "author": "Sebastian Mateus",
