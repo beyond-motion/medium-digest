@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-20-plaid-transaction-foundation-models",
+    "title": "Foundation models for bank transactions: from a single description to a full history",
+    "author": "Wen Yao",
+    "date": "2026-11-20T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/plaid-engineering/foundation-models-for-bank-transactions-from-a-single-description-to-a-full-history-5d83dbeb117d",
+    "status": "processed",
+    "excerpt": "银行账单描述是写给结算系统的不是写给人的：Plaid 用「LLM 释义+对比学习」训练 CLERT 读懂单笔交易（ACME DIR DEP 是工资不是退款，商家精确匹配 0.44→0.79），MUSERT 把最长 4096 笔的历史按时序读成风险信号——迟融合让三个在用树模型全部改善（1% 标记预算多抓 26.5% 退回美元、最安全 20% 贷款违约 -31%），CLERT 蒸馏后延迟 136→38ms。",
+    "image": "covers/2026-11-20-plaid-transaction-foundation-models.svg",
+    "cardImage": "covers/2026-11-20-plaid-transaction-foundation-models.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-20-plaid-transaction-foundation-models.md"
+  },
+  {
+    "slug": "2026-11-20-trump-power-entwined-with-ai",
+    "title": "Trump makes it clear his power is becoming entwined with AI",
+    "author": "Blake Montgomery",
+    "date": "2026-11-20T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/the-guardian/trump-makes-it-clear-his-power-is-becoming-entwined-with-ai-4ac418cc8d1c",
+    "status": "processed",
+    "excerpt": "卫报 TechScape：六位 AI CEO 与总统签署「道德约束力」自我监管协议（Zuckerberg 亲自主导起草、产生于国宴对话）；政府文件「人工智能」一律改称「超级智能」、Musk 立刻改名 SpaceXSI 并入 Project Meridian 战争研究组、情报首长 Clayton 兼任第二任 AI 沙皇——行政权、五角大楼与情报系统正与 AI 公司结盟；而就业报告显示新增就业大头在医疗不在 AI。",
+    "image": "covers/2026-11-20-trump-power-entwined-with-ai.svg",
+    "cardImage": "covers/2026-11-20-trump-power-entwined-with-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-20-trump-power-entwined-with-ai.md"
+  },
+  {
     "slug": "2026-11-19-pandas-polars-dask-energy-measured",
     "title": "I Compared Three Popular Python Data Libraries on My Own Laptop: Here Is What I Found.",
     "author": "Tuan Nguyen",
