@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-21-architect-agent-context",
+    "title": "Stop Giving AI Agents More Context. Start Architecting the Context They Receive.",
+    "author": "Christian Sepulveda",
+    "date": "2026-11-21T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@christian.sepulveda/stop-giving-ai-agents-more-context-start-architecting-the-context-they-receive-2deed868c4ad",
+    "status": "processed",
+    "excerpt": "让 Agent 表现稳定的不是更好的模型而是更好的环境：AI harness 分内层（Cursor 等 AI 工具自带的基础设施）与外层（AGENTS.md 规则/skills/MCP/护栏——不需要统一内层也能统一产出）；从一组通用规则起步，到根 AGENTS.md 入口+按服务嵌套的渐进式上下文加载（支付服务不需要通知服务的上下文），最后守住「指令不是强制」的边界——hook/权限/测试/CI 才是执行保障。",
+    "image": "covers/2026-11-21-architect-agent-context.svg",
+    "cardImage": "covers/2026-11-21-architect-agent-context.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-21-architect-agent-context.md"
+  },
+  {
+    "slug": "2026-11-21-cut-ted-talk-silence-with-ai",
+    "title": "We Cut a 19-Minute TED Talk’s Silence With AI",
+    "author": "Sanook Ai",
+    "date": "2026-11-21T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@sanookai55/we-cut-a-19-minute-ted-talks-silence-with-ai-e98b43502c9d",
+    "status": "processed",
+    "excerpt": "手工剪静默是剪辑里最无聊的一小时：用 Silero VAD（按「说话/没说话」而非「响/不响」判断）找出一支 1147.8 秒 TED 演讲里的 396 段语音，capcut-cli 拼成 768.13 秒的可编辑草稿、约 100 秒建成、人工复核通过；四条踩坑实录（一键版超时/9.3 beta 模板错配/点坐标点错草稿当场禁自动点击/神秘草稿）与「产出可编辑工程而非成品视频」的设计选择。",
+    "image": "covers/2026-11-21-cut-ted-talk-silence-with-ai.svg",
+    "cardImage": "covers/2026-11-21-cut-ted-talk-silence-with-ai.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-21-cut-ted-talk-silence-with-ai.md"
+  },
+  {
+    "slug": "2026-11-21-what-agent-checks-results-with",
+    "title": "What Will the Agent Check Its Result With?",
+    "author": "Szymon Pacholski",
+    "date": "2026-11-21T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@spacholski99/what-will-the-agent-check-its-result-with-f62e3c54f623",
+    "status": "processed",
+    "excerpt": "把任务交给编码 Agent 前，先问「它能拿什么校验结果」——答案是「没有」的话，建那个校验就是第一个任务：AWS 重建 Paxos 锁服务 Alf 时监督四晚发现 Agent 无处校验，给它 spec+测试环境后原四个月的活两小时完成；AWS Emulator 的关键在步骤顺序——先对真实服务校准测试、再让被测物通过同一测试；测试与实现共享同一错误假设时会互相印证——永远追问期望值从哪来。",
+    "image": "covers/2026-11-21-what-agent-checks-results-with.svg",
+    "cardImage": "covers/2026-11-21-what-agent-checks-results-with.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-21-what-agent-checks-results-with.md"
+  },
+  {
     "slug": "2026-11-20-plaid-transaction-foundation-models",
     "title": "Foundation models for bank transactions: from a single description to a full history",
     "author": "Wen Yao",
