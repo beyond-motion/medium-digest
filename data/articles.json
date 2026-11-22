@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-11-22-tabular-foundation-models-student-retention",
+    "title": "Tabular Foundation Models: When Better Predictions Arrive Later",
+    "author": "Rayan Yassminh",
+    "date": "2026-11-22T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@ryassminh/tabular-foundation-models-when-better-predictions-arrive-later-5a2b895bbfe8",
+    "status": "processed",
+    "excerpt": "学生保留团队的等待定价问题：UCI 4424 条记录、25 个配对折上，从注册时点挪到第一学期末让 macro-F1 提升 0.118-0.151（每个模型全 25 折皆胜），而模型间差异（TabPFN vs 逻辑回归）置信区间两处皆跨零——「何时预测」压倒「用哪个模型」；晚到队列 20% 容量下多抓 164 vs 137 例，保本比 1.19：早干预至少再有效 19-20% 才值得用更差的早期分数；模型只是部署契约的一个组件，不是契约本身。",
+    "image": "covers/2026-11-22-tabular-foundation-models-student-retention.svg",
+    "cardImage": "covers/2026-11-22-tabular-foundation-models-student-retention.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-22-tabular-foundation-models-student-retention.md"
+  },
+  {
     "slug": "2026-11-21-architect-agent-context",
     "title": "Stop Giving AI Agents More Context. Start Architecting the Context They Receive.",
     "author": "Christian Sepulveda",
