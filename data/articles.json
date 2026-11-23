@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-11-23-two-million-canary-secrets-ai-supply-chain",
+    "title": "A Researcher Planted 2 Million Secrets in AI Prompts. Your Price Per Token Never Said Who Reads Them.",
+    "author": "Abbas Mistrah",
+    "date": "2026-11-23T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/towards-artificial-intelligence/a-researcher-planted-2-million-secrets-in-ai-prompts-23154bed616b",
+    "status": "processed",
+    "excerpt": "Dragos 研究负责人 HD Moore 五个月向 AI 服务投喂近 200 万条带可追踪假密钥的提示词（金丝雀陷阱）：三家托管商被入侵且浑然不知（其中两家失窃请求标着 ZDR）、推理市场转售商开日志等密钥送上门（泄漏跟卖家不跟模型）、某中国实验室抓取过半提示词里的 URL 连三分之二标「不收集」的也没放过；OpenRouter 事后撤下 MiniMax 端点的 ZDR 标签——承诺与证据之间只差一个假凭据，附 CIO 周一清单六条。",
+    "image": "covers/2026-11-23-two-million-canary-secrets-ai-supply-chain.svg",
+    "cardImage": "covers/2026-11-23-two-million-canary-secrets-ai-supply-chain.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-23-two-million-canary-secrets-ai-supply-chain.md"
+  },
+  {
     "slug": "2026-11-22-tabular-foundation-models-student-retention",
     "title": "Tabular Foundation Models: When Better Predictions Arrive Later",
     "author": "Rayan Yassminh",
