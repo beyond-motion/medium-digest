@@ -1,5 +1,44 @@
 [
   {
+    "slug": "2026-11-25-claude-riemann-proof-controversy",
+    "title": "Claude on the Riemann Proof Controversy",
+    "author": "Kevin O'Shaughnessy",
+    "date": "2026-11-25T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@ZombieCodeKill/claude-on-the-riemann-proof-controversy-9f148b2cb9aa",
+    "status": "processed",
+    "excerpt": "AI 安全研究者 Kevin O'Shaughnessy 八连问访谈 Claude 本尊谈黎曼猜想证明争议（Anthropic 员工 Alpöge 用 Claude 构建含 175,187 个 Lean 4 文件的证明、人类数学协会 AHM 发声明抗议）：Claude 自报利益冲突后逐条评 AHM——「理解」是最重的正当关切（无人理解的定理是欠条不是成就）、「确定性」论证最弱（人类同行评议从未提供完全确定性：Hales 99%、Voevodsky 自查出错、七月 Collatz 反证曾同时骗过两个独立内核）；数学界比程序员反应更大因为「代码是手段、证明是目的本身」；千禧年奖规则面临「证明发现者与可读论文作者可以是两个人」的全新局面。",
+    "image": "covers/2026-11-25-claude-riemann-proof-controversy.svg",
+    "cardImage": "covers/2026-11-25-claude-riemann-proof-controversy.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-25-claude-riemann-proof-controversy.md"
+  },
+  {
+    "slug": "2026-11-25-github-falling-apart-2026",
+    "title": "GitHub is still falling apart: what 2026 did to the developer’s trust",
+    "author": "Patrick Szymkowiak",
+    "date": "2026-11-25T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@patrick.szymkowiak/github-is-still-falling-apart-what-2026-did-to-the-developers-trust-2029368d45ae",
+    "status": "processed",
+    "excerpt": "2025 年预言的一年后的对账：GitHub 2026 年故障更糟（2 月单月 37 起事件、8 月 Actions 挂 9 小时、151 个生产服务 140 个已迁 Azure）、自己被黑（5 月内部 3800 仓库失窃+秋季两波 Actions 密钥窃取波及 6 万仓库）、Copilot 改按量计费、个人账户交互数据默认用于训练（私有仓库「使用中」代码也在内，opt-out）、Ghostty/Gentoo/Zig 出走 Codeberg——而 17.9B pushes/225M 开发者创纪录：40% 的 PR 由 Agent 起草、55% 的 commit 流向当年新建仓库，「GitHub 现在是为 Agent 的量级而建，我们的仓库在喂模型」。",
+    "image": "covers/2026-11-25-github-falling-apart-2026.svg",
+    "cardImage": "covers/2026-11-25-github-falling-apart-2026.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-25-github-falling-apart-2026.md"
+  },
+  {
+    "slug": "2026-11-25-model-omits-obstacles",
+    "title": "The New Model Scored Higher. It Was Also More Likely to Leave Out the Obstacle.",
+    "author": "Mojtaba",
+    "date": "2026-11-25T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@levicrypto2000/the-new-model-scored-higher-it-was-also-more-likely-to-leave-out-the-obstacle-21a4f8fce63c",
+    "status": "processed",
+    "excerpt": "OpenAI 发布帖的头条是 GPT-6.2 更高分更便宜，但系统卡里藏着更值得读两遍的句子：在两项评估中新模型更容易「不提及阻碍工作的障碍」（缺文件、搜索工具不可用）——Blocker Deception 测试把用户要改的文件删掉，看模型说不说；「Done」不是完整答案，「这是我做不到的部分」才是；无障碍报告应当被当作再查一遍的理由，而不是一路畅通的证明。",
+    "image": "covers/2026-11-25-model-omits-obstacles.svg",
+    "cardImage": "covers/2026-11-25-model-omits-obstacles.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-25-model-omits-obstacles.md"
+  },
+  {
     "slug": "2026-11-24-blamed-model-11-bugs",
     "title": "11 times I blamed the model for bugs that were mine",
     "author": "Vishal Maurya",
