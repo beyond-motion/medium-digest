@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-26-crypto-deposits-exactly-once",
+    "title": "Crediting Crypto Deposits Exactly Once: Lessons from a Go Wallet Service",
+    "author": "Erkin Duran",
+    "date": "2026-11-26T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@erkinduran/crediting-crypto-deposits-exactly-once-lessons-from-a-go-wallet-service-18fb17f819d5",
+    "status": "processed",
+    "excerpt": "2018 年一个人写加密交易所的入账哲学：通知不是「一次」机制（节点 walletnotify 会重发、重启会重放、HTTP 超时会重试——每条通知都变成余额更新，充 1 BTC 的用户看到 2 BTC，那不是 bug 报告是提现申请）；解法是让数据库在写钱的同一个事务里拒绝第二次入账（txid 唯一约束+ON CONFLICT DO NOTHING+重复返回 nil 而非报错）；今天的五条改法：键要 chain+txid+vout（一笔交易可付多个地址）、ETH 别漏内部调用与日志、确认数按链按金额、监听器与账本之间加队列（RabbitMQ 至少一次→约束变成可以安全迟 ack 的理由）、对账任务无论如何都要有。",
+    "image": "covers/2026-11-26-crypto-deposits-exactly-once.svg",
+    "cardImage": "covers/2026-11-26-crypto-deposits-exactly-once.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-26-crypto-deposits-exactly-once.md"
+  },
+  {
+    "slug": "2026-11-26-in-defense-of-all-ive-stolen",
+    "title": "In Defense of All I’ve Stolen",
+    "author": "Delaney Rea",
+    "date": "2026-11-26T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/engage/in-defense-of-all-ive-stolen-8e6a98e27978",
+    "status": "processed",
+    "excerpt": "拼贴艺术家在西班牙 Cadaqués 的自我审判：回程买烟的路上突然怀疑自己「干过头了」——整趟旅行变成了「从砖墙上撕东西」的扫货，连接由人构成而不由照片构成；大脑像撞上内存上限而拼贴「容量巨大」、是深奥的时间胶囊； Portland 的素材理直气壮（住了五年懂它的怪）、旅途素材始终是别人家的 home；父亲退休后专职收集电线杆上的「碎片」、最老一张是 2007 年 Paranoid Park 的选角启事；「欣赏一个地方」是个没肉的概念——我得自己搞明白。",
+    "image": "covers/2026-11-26-in-defense-of-all-ive-stolen.svg",
+    "cardImage": "covers/2026-11-26-in-defense-of-all-ive-stolen.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-26-in-defense-of-all-ive-stolen.md"
+  },
+  {
     "slug": "2026-11-25-claude-riemann-proof-controversy",
     "title": "Claude on the Riemann Proof Controversy",
     "author": "Kevin O'Shaughnessy",
