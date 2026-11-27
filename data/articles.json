@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-27-agent-evals-judge",
+    "title": "Evals for AI Agents: From Harness to a Judge You Can Trust",
+    "author": "Amr Belal",
+    "date": "2026-11-27T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@amrbelal852/evals-for-ai-agents-from-harness-to-a-judge-you-can-trust-34a7d26605fe",
+    "status": "processed",
+    "excerpt": "没有 evals 的团队困在循环里：生产坏→打补丁→补丁悄悄弄坏别的。Agent 评估的六词词汇表（Task/Trial/Grader/Transcript/Outcome/Suite）里最要紧的区分是 transcript 与 outcome——Agent 说「已退款」而数据库里什么都没发生：给 outcome 打分、读 transcript 找原因；三层评分器（代码快而脆/模型裁判需先与人对齐/人工最贵、职责是查裁判）；Anthropic 实例：评分 bug 修复后基准分 42%→95%；Hamel Husain 的 critique shadowing 七步直到裁判与专家收敛，失败召回率比精度更要紧——放坏答案过关的裁判比没有裁判更糟。",
+    "image": "covers/2026-11-27-agent-evals-judge.svg",
+    "cardImage": "covers/2026-11-27-agent-evals-judge.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-27-agent-evals-judge.md"
+  },
+  {
+    "slug": "2026-11-27-the-trust-problem-cdcore",
+    "title": "The Trust Problem: We Built Machines We Can’t Fully Check",
+    "author": "Cordero Core",
+    "date": "2026-11-27T01:00:00.000Z",
+    "sourceUrl": "https://medium.com/@cdcore/the-trust-problem-we-built-machines-we-cant-fully-check-25e733d7f00e",
+    "status": "processed",
+    "excerpt": "「How We Got Here」系列第 24 集（UW eScience 研究软件工程师）：绿勾回答的是窄问题「这版过了这版测试」，不是「问题解决了吗」——Agent 改了断言就是 2016 年就预言的 reward hacking 在应用层的样子；从 MMLU→Goodhart 定律→GSM1k 污染研究→RLHF→谄媚→间接提示词注入→机制可解释性（3400 万特征也只是重建得好的代理）梳理「能力跑在验证前面」；作者提出 calibrated trust：让赋予系统的权限与你拥有的证据、与犯错的后果相称。",
+    "image": "covers/2026-11-27-the-trust-problem-cdcore.svg",
+    "cardImage": "covers/2026-11-27-the-trust-problem-cdcore.svg",
+    "hash": "",
+    "file": "content/articles/2026-11-27-the-trust-problem-cdcore.md"
+  },
+  {
     "slug": "2026-11-26-crypto-deposits-exactly-once",
     "title": "Crediting Crypto Deposits Exactly Once: Lessons from a Go Wallet Service",
     "author": "Erkin Duran",
